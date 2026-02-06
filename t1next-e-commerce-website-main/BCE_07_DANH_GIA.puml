@@ -1,0 +1,105 @@
+@startuml BCE_DANH_GIA
+
+left to right direction
+
+skinparam backgroundColor white
+skinparam shadowing false
+
+skinparam boundary {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam control {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam entity {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+
+title BIỂU ĐỒ LỚP BCE - MODULE ĐÁNH GIÁ SẢN PHẨM
+
+' ========== ACTOR ==========
+actor "Khách Hàng\n(from Actor)" as Customer
+
+' ========== BOUNDARY ==========
+boundary "W_ReviewPage\n(from Lớp Biên)" as B_ReviewPage
+note bottom of B_ReviewPage
+  <color:blue>◉</color>displayReviews
+  <color:blue>◉</color>displayReviewForm
+  <color:purple>◆</color>handleSubmitReview()
+  <color:purple>◆</color>handleUploadImages()
+end note
+
+boundary "W_ReviewAPI\n(from Lớp Biên)" as B_ReviewAPI
+note bottom of B_ReviewAPI
+  <color:blue>◉</color>POST /reviews
+  <color:blue>◉</color>GET /reviews
+  <color:purple>◆</color>createReview()
+  <color:purple>◆</color>getReviews()
+end note
+
+' ========== CONTROL ==========
+control "C_ReviewController\n(from Lớp Điều Khiển)" as C_ReviewCtrl
+note bottom of C_ReviewCtrl
+  <color:purple>◆</color>createReview()
+  <color:purple>◆</color>getReviews()
+  <color:purple>◆</color>updateReview()
+  <color:purple>◆</color>deleteReview()
+  <color:purple>◆</color>moderateReview()
+end note
+
+control "C_ReviewService\n(from Lớp Điều Khiển)" as C_ReviewSvc
+note bottom of C_ReviewSvc
+  <color:purple>◆</color>validateReview()
+  <color:purple>◆</color>calculateRating()
+  <color:purple>◆</color>uploadImages()
+  <color:purple>◆</color>moderateReview()
+end note
+
+' ========== ENTITY ==========
+entity "Review\n(from Lớp Thực Thể)" as E_Review
+note bottom of E_Review
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>productId: UUID
+  <color:blue>◉</color>userId: UUID
+  <color:blue>◉</color>rating: Integer
+  <color:blue>◉</color>comment: String
+  <color:blue>◉</color>images: String[]
+  <color:blue>◉</color>isVerified: Boolean
+  <color:blue>◉</color>createdAt: DateTime
+  ────────────
+  <color:purple>◆</color>createReview()
+  <color:purple>◆</color>updateReview()
+end note
+
+entity "Product\n(from Lớp Thực Thể)" as E_Product
+note bottom of E_Product
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>name: String
+  <color:blue>◉</color>rating: Decimal
+  <color:blue>◉</color>reviewCount: Integer
+  ────────────
+  <color:purple>◆</color>updateRating()
+end note
+
+entity "User\n(from Lớp Thực Thể)" as E_User
+note bottom of E_User
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>name: String
+  <color:blue>◉</color>email: String
+  ────────────
+  <color:purple>◆</color>getUser()
+end note
+
+' ========== RELATIONSHIPS ==========
+Customer --> B_ReviewPage
+B_ReviewPage --> C_ReviewCtrl
+B_ReviewAPI --> C_ReviewCtrl
+C_ReviewCtrl --> C_ReviewSvc
+C_ReviewSvc --> E_Review
+E_Review --> E_Product
+E_Review --> E_User
+
+@enduml

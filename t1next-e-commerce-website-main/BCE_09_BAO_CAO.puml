@@ -1,0 +1,100 @@
+@startuml BCE_BAO_CAO
+
+left to right direction
+
+skinparam backgroundColor white
+skinparam shadowing false
+
+skinparam boundary {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam control {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam entity {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+
+title BIỂU ĐỒ LỚP BCE - MODULE BÁO CÁO & THỐNG KÊ
+
+' ========== ACTOR ==========
+actor "Quản Lý\n(from Actor)" as Manager
+
+' ========== BOUNDARY ==========
+boundary "W_ReportPage\n(from Lớp Biên)" as B_ReportPage
+note bottom of B_ReportPage
+  <color:blue>◉</color>displayReports
+  <color:blue>◉</color>displayCharts
+  <color:purple>◆</color>handleGenerateReport()
+  <color:purple>◆</color>handleExportReport()
+end note
+
+boundary "W_ReportAPI\n(from Lớp Biên)" as B_ReportAPI
+note bottom of B_ReportAPI
+  <color:blue>◉</color>GET /reports/revenue
+  <color:blue>◉</color>GET /reports/orders
+  <color:purple>◆</color>getRevenueReport()
+  <color:purple>◆</color>getOrderReport()
+end note
+
+' ========== CONTROL ==========
+control "C_ReportController\n(from Lớp Điều Khiển)" as C_ReportCtrl
+note bottom of C_ReportCtrl
+  <color:purple>◆</color>getRevenueReport()
+  <color:purple>◆</color>getOrderReport()
+  <color:purple>◆</color>getProductReport()
+  <color:purple>◆</color>exportReport()
+end note
+
+control "C_ReportService\n(from Lớp Điều Khiển)" as C_ReportSvc
+note bottom of C_ReportSvc
+  <color:purple>◆</color>aggregateData()
+  <color:purple>◆</color>generateCharts()
+  <color:purple>◆</color>calculateMetrics()
+  <color:purple>◆</color>exportPDF()
+end note
+
+' ========== ENTITY ==========
+entity "Order\n(from Lớp Thực Thể)" as E_Order
+note bottom of E_Order
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>total: Decimal
+  <color:blue>◉</color>status: OrderStatus
+  <color:blue>◉</color>createdAt: DateTime
+  ────────────
+  <color:purple>◆</color>getOrders()
+  <color:purple>◆</color>calculateRevenue()
+end note
+
+entity "Product\n(from Lớp Thực Thể)" as E_Product
+note bottom of E_Product
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>name: String
+  <color:blue>◉</color>price: Decimal
+  <color:blue>◉</color>stock: Integer
+  ────────────
+  <color:purple>◆</color>getTopProducts()
+end note
+
+entity "User\n(from Lớp Thực Thể)" as E_User
+note bottom of E_User
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>name: String
+  <color:blue>◉</color>totalSpent: Decimal
+  ────────────
+  <color:purple>◆</color>getTopCustomers()
+end note
+
+' ========== RELATIONSHIPS ==========
+Manager --> B_ReportPage
+B_ReportPage --> C_ReportCtrl
+B_ReportAPI --> C_ReportCtrl
+C_ReportCtrl --> C_ReportSvc
+C_ReportSvc --> E_Order
+C_ReportSvc --> E_Product
+C_ReportSvc --> E_User
+
+@enduml

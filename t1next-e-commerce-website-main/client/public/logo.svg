@@ -1,0 +1,8 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background với bo góc 10px -->
+  <rect width="40" height="40" rx="10" fill="#14B8A6"/>
+  <!-- Letter T -->
+  <path d="M8 12H19V15H15.5V28H11.5V15H8V12Z" fill="white"/>
+  <!-- Number 1 -->
+  <path d="M22 15L25 12H28V28H24V17L22 18.5V15Z" fill="white"/>
+</svg>

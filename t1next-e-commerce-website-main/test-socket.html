@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Socket.IO</title>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .log { background: #f0f0f0; padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .success { color: green; }
+        .error { color: red; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>🧪 Test Socket.IO Connection</h1>
+    
+    <div>
+        <label>Token: </label>
+        <input type="text" id="token" style="width: 400px;" placeholder="Paste token from localStorage">
+        <button onclick="connect()">Connect</button>
+    </div>
+    
+    <div style="margin-top: 20px;">
+        <button onclick="joinKitchen()">Join Kitchen Room</button>
+        <button onclick="testEmit()">Test Emit</button>
+        <button onclick="clearLogs()">Clear Logs</button>
+    </div>
+    
+    <h2>Logs:</h2>
+    <div id="logs"></div>
+    
+    <script>
+        let socket = null;
+        
+        function log(message, type = 'info') {
+            const div = document.createElement('div');
+            div.className = 'log ' + type;
+            div.textContent = new Date().toLocaleTimeString() + ' - ' + message;
+            document.getElementById('logs').prepend(div);
+        }
+        
+        function connect() {
+            const token = document.getElementById('token').value;
+            if (!token) {
+                alert('Please enter token');
+                return;
+            }
+            
+            log('Connecting to http://localhost:3001...');
+            
+            socket = io('http://localhost:3001', {
+                auth: { token },
+                transports: ['websocket', 'polling']
+            });
+            
+            socket.on('connect', () => {
+                log('✅ Connected! Socket ID: ' + socket.id, 'success');
+            });
+            
+            socket.on('disconnect', (reason) => {
+                log('❌ Disconnected: ' + reason, 'error');
+            });
+            
+            socket.on('connect_error', (error) => {
+                log('❌ Connection error: ' + error.message, 'error');
+            });
+            
+            socket.on('kitchen:new-item', (data) => {
+                log('🔔 Received kitchen:new-item: ' + JSON.stringify(data), 'success');
+            });
+            
+            socket.on('kitchen:item-updated', (data) => {
+                log('🔔 Received kitchen:item-updated: ' + JSON.stringify(data), 'success');
+            });
+        }
+        
+        function joinKitchen() {
+            if (!socket || !socket.connected) {
+                alert('Please connect first');
+                return;
+            }
+            socket.emit('join:room', 'kitchen');
+            log('📍 Sent join:room kitchen');
+        }
+        
+        function testEmit() {
+            if (!socket || !socket.connected) {
+                alert('Please connect first');
+                return;
+            }
+            socket.emit('test', { message: 'Hello from test page' });
+            log('📤 Sent test event');
+        }
+        
+        function clearLogs() {
+            document.getElementById('logs').innerHTML = '';
+        }
+        
+        // Auto-fill token from localStorage if available
+        window.addEventListener('load', () => {
+            const token = localStorage.getItem('token');
+            if (token) {
+                document.getElementById('token').value = token;
+                log('Token loaded from localStorage');
+            }
+        });
+    </script>
+</body>
+</html>

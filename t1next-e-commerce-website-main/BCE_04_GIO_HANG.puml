@@ -1,0 +1,93 @@
+@startuml BCE_GIO_HANG
+
+left to right direction
+
+skinparam backgroundColor white
+skinparam shadowing false
+
+skinparam boundary {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam control {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam entity {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+
+title BIỂU ĐỒ LỚP BCE - MODULE QUẢN LÝ GIỎ HÀNG
+
+' ========== ACTOR ==========
+actor "Khách Hàng\n(from Actor)" as Customer
+
+' ========== BOUNDARY ==========
+boundary "W_CartPage\n(from Lớp Biên)" as B_CartPage
+note bottom of B_CartPage
+  <color:blue>◉</color>displayCart
+  <color:purple>◆</color>handleUpdateQuantity()
+  <color:purple>◆</color>handleRemoveItem()
+  <color:purple>◆</color>handleCheckout()
+end note
+
+boundary "W_CartAPI\n(from Lớp Biên)" as B_CartAPI
+note bottom of B_CartAPI
+  <color:blue>◉</color>GET /cart
+  <color:blue>◉</color>POST /cart/items
+  <color:purple>◆</color>getCart()
+  <color:purple>◆</color>addToCart()
+end note
+
+' ========== CONTROL ==========
+control "C_CartController\n(from Lớp Điều Khiển)" as C_CartCtrl
+note bottom of C_CartCtrl
+  <color:purple>◆</color>getCart()
+  <color:purple>◆</color>addToCart()
+  <color:purple>◆</color>updateCartItem()
+  <color:purple>◆</color>removeFromCart()
+  <color:purple>◆</color>clearCart()
+end note
+
+control "C_CartService\n(from Lớp Điều Khiển)" as C_CartSvc
+note bottom of C_CartSvc
+  <color:purple>◆</color>validateCartItem()
+  <color:purple>◆</color>calculateCartTotal()
+  <color:purple>◆</color>checkProductAvailability()
+  <color:purple>◆</color>syncCartWithStock()
+end note
+
+' ========== ENTITY ==========
+entity "CartItem\n(from Lớp Thực Thể)" as E_CartItem
+note bottom of E_CartItem
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>userId: UUID
+  <color:blue>◉</color>productId: UUID
+  <color:blue>◉</color>quantity: Integer
+  <color:blue>◉</color>createdAt: DateTime
+  ────────────
+  <color:purple>◆</color>updateQuantity()
+  <color:purple>◆</color>calculateTotal()
+end note
+
+entity "Product\n(from Lớp Thực Thể)" as E_Product
+note bottom of E_Product
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>name: String
+  <color:blue>◉</color>price: Decimal
+  <color:blue>◉</color>stock: Integer
+  ────────────
+  <color:purple>◆</color>checkAvailability()
+end note
+
+' ========== RELATIONSHIPS ==========
+Customer --> B_CartPage
+Customer --> B_CartAPI
+B_CartPage --> C_CartCtrl
+B_CartAPI --> C_CartCtrl
+C_CartCtrl --> C_CartSvc
+C_CartSvc --> E_CartItem
+E_CartItem --> E_Product
+
+@enduml

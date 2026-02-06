@@ -1,0 +1,67 @@
+# Kiro IDE
+.kiro/
+
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# production
+build/
+dist/
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files - QUAN TRỌNG: không push lên git
+.env
+.env.local
+.env.development
+.env.production
+.env*.local
+*.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# logs
+logs/
+*.log
+
+# uploads và backups
+uploads/
+backups/
+
+# test coverage
+coverage/
+
+# cache
+.cache/
+.turbo/
+
+# lock files (optional - có thể giữ lại)
+# package-lock.json
+# pnpm-lock.yaml
+
+# Prisma generated
+**/generated/prisma/

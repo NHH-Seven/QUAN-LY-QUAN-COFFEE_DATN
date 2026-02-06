@@ -1,0 +1,117 @@
+@startuml BCE_CHATBOT
+
+left to right direction
+
+skinparam backgroundColor white
+skinparam shadowing false
+
+skinparam boundary {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam control {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam entity {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+
+title BIỂU ĐỒ LỚP BCE - MODULE CHATBOT AI
+
+' ========== ACTOR ==========
+actor "Khách Hàng\n(from Actor)" as Customer
+
+' ========== BOUNDARY ==========
+boundary "W_ChatWidget\n(from Lớp Biên)" as B_ChatWidget
+note bottom of B_ChatWidget
+  <color:blue>◉</color>displayChatWindow
+  <color:purple>◆</color>handleSendMessage()
+  <color:purple>◆</color>displayMessages()
+  <color:purple>◆</color>showTypingIndicator()
+end note
+
+boundary "W_ChatAPI\n(from Lớp Biên)" as B_ChatAPI
+note bottom of B_ChatAPI
+  <color:blue>◉</color>POST /chat/message
+  <color:blue>◉</color>GET /chat/sessions
+  <color:purple>◆</color>sendMessage()
+  <color:purple>◆</color>getChatSessions()
+end note
+
+' ========== CONTROL ==========
+control "C_ChatController\n(from Lớp Điều Khiển)" as C_ChatCtrl
+note bottom of C_ChatCtrl
+  <color:purple>◆</color>sendMessage()
+  <color:purple>◆</color>getChatSessions()
+  <color:purple>◆</color>getChatHistory()
+  <color:purple>◆</color>closeSession()
+end note
+
+control "C_ChatbotService\n(from Lớp Điều Khiển)" as C_ChatbotSvc
+note bottom of C_ChatbotSvc
+  <color:purple>◆</color>processMessage()
+  <color:purple>◆</color>detectIntent()
+  <color:purple>◆</color>searchKnowledge()
+  <color:purple>◆</color>generateResponse()
+  <color:purple>◆</color>callGeminiAPI()
+end note
+
+control "C_SocketService\n(from Lớp Điều Khiển)" as C_SocketSvc
+note bottom of C_SocketSvc
+  <color:purple>◆</color>emitMessage()
+  <color:purple>◆</color>broadcastToStaff()
+  <color:purple>◆</color>notifyTyping()
+end note
+
+' ========== ENTITY ==========
+entity "ChatSession\n(from Lớp Thực Thể)" as E_ChatSession
+note bottom of E_ChatSession
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>userId: UUID
+  <color:blue>◉</color>staffId: UUID
+  <color:blue>◉</color>status: ChatSessionStatus
+  <color:blue>◉</color>startedAt: DateTime
+  <color:blue>◉</color>endedAt: DateTime
+  ────────────
+  <color:purple>◆</color>createSession()
+  <color:purple>◆</color>closeSession()
+end note
+
+entity "ChatMessage\n(from Lớp Thực Thể)" as E_ChatMessage
+note bottom of E_ChatMessage
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>sessionId: UUID
+  <color:blue>◉</color>message: String
+  <color:blue>◉</color>isStaff: Boolean
+  <color:blue>◉</color>isAI: Boolean
+  <color:blue>◉</color>createdAt: DateTime
+  ────────────
+  <color:purple>◆</color>saveMessage()
+end note
+
+entity "ChatbotKnowledge\n(from Lớp Thực Thể)" as E_ChatKnowledge
+note bottom of E_ChatKnowledge
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>question: String
+  <color:blue>◉</color>answer: String
+  <color:blue>◉</color>keywords: String[]
+  <color:blue>◉</color>category: String
+  <color:blue>◉</color>isActive: Boolean
+  ────────────
+  <color:purple>◆</color>searchByKeyword()
+end note
+
+' ========== RELATIONSHIPS ==========
+Customer --> B_ChatWidget
+B_ChatWidget --> C_ChatCtrl
+B_ChatAPI --> C_ChatCtrl
+C_ChatCtrl --> C_ChatbotSvc
+C_ChatCtrl --> C_SocketSvc
+C_ChatbotSvc --> E_ChatSession
+C_ChatbotSvc --> E_ChatMessage
+C_ChatbotSvc --> E_ChatKnowledge
+E_ChatSession --> E_ChatMessage
+
+@enduml

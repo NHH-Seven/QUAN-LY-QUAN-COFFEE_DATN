@@ -1,0 +1,14 @@
+<svg viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- T1 Logo - Wing style -->
+  <!-- Left wing stripes -->
+  <path d="M5 12 L45 12 L55 22 L15 22 Z" fill="currentColor"/>
+  <path d="M12 24 L52 24 L60 32 L20 32 Z" fill="currentColor"/>
+  <path d="M19 34 L58 34 L64 40 L25 40 Z" fill="currentColor"/>
+  <path d="M26 42 L62 42 L66 46 L30 46 Z" fill="currentColor"/>
+  
+  <!-- T letter -->
+  <path d="M48 8 L95 8 L95 16 L78 16 L78 52 L68 52 L68 16 L48 16 Z" fill="currentColor"/>
+  
+  <!-- 1 number -->
+  <path d="M98 8 L108 8 L108 52 L98 52 L98 18 L92 22 L92 14 Z" fill="currentColor"/>
+</svg>

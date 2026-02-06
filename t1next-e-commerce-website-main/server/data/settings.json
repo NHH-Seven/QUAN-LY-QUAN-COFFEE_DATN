@@ -1,0 +1,9 @@
+{
+  "flashSaleEnabled": false,
+  "flashSaleTitle": "Flash Sale",
+  "flashSaleDiscount": 50,
+  "flashSaleStartHour": 0,
+  "flashSaleEndHour": 22,
+  "maintenanceMode": false,
+  "siteName": "NHH-Coffee"
+}

@@ -1,0 +1,120 @@
+@startuml BCE_XAC_THUC
+
+left to right direction
+
+skinparam backgroundColor white
+skinparam shadowing false
+
+skinparam boundary {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam control {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam entity {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+
+title BIỂU ĐỒ LỚP BCE - MODULE XÁC THỰC & NGƯỜI DÙNG
+
+' ========== ACTOR ==========
+actor "Người Dùng\n(from Actor)" as User
+
+' ========== BOUNDARY ==========
+boundary "W_LoginPage\n(from Lớp Biên)" as B_LoginPage
+note bottom of B_LoginPage
+  <color:blue>◉</color>displayLoginForm
+  <color:purple>◆</color>handleLogin()
+  <color:purple>◆</color>handleLogout()
+  <color:purple>◆</color>showErrors()
+end note
+
+boundary "W_RegisterPage\n(from Lớp Biên)" as B_RegisterPage
+note bottom of B_RegisterPage
+  <color:blue>◉</color>displayRegisterForm
+  <color:purple>◆</color>handleRegister()
+  <color:purple>◆</color>verifyOTP()
+end note
+
+boundary "W_AuthAPI\n(from Lớp Biên)" as B_AuthAPI
+note bottom of B_AuthAPI
+  <color:blue>◉</color>POST /auth/register
+  <color:blue>◉</color>POST /auth/login
+  <color:purple>◆</color>register()
+  <color:purple>◆</color>login()
+end note
+
+' ========== CONTROL ==========
+control "C_AuthController\n(from Lớp Điều Khiển)" as C_AuthCtrl
+note bottom of C_AuthCtrl
+  <color:purple>◆</color>register()
+  <color:purple>◆</color>verifyOTP()
+  <color:purple>◆</color>login()
+  <color:purple>◆</color>logout()
+  <color:purple>◆</color>forgotPassword()
+  <color:purple>◆</color>resetPassword()
+end note
+
+control "C_AuthService\n(from Lớp Điều Khiển)" as C_AuthSvc
+note bottom of C_AuthSvc
+  <color:purple>◆</color>validateUserData()
+  <color:purple>◆</color>hashPassword()
+  <color:purple>◆</color>comparePassword()
+  <color:purple>◆</color>generateJWT()
+  <color:purple>◆</color>verifyJWT()
+  <color:purple>◆</color>sendOTPEmail()
+end note
+
+control "C_UserService\n(from Lớp Điều Khiển)" as C_UserSvc
+note bottom of C_UserSvc
+  <color:purple>◆</color>getUserById()
+  <color:purple>◆</color>updateUserProfile()
+  <color:purple>◆</color>updatePoints()
+  <color:purple>◆</color>calculateTier()
+end note
+
+' ========== ENTITY ==========
+entity "User\n(from Lớp Thực Thể)" as E_User
+note bottom of E_User
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>email: String
+  <color:blue>◉</color>password: String
+  <color:blue>◉</color>name: String
+  <color:blue>◉</color>role: UserRole
+  <color:blue>◉</color>points: Integer
+  <color:blue>◉</color>tier: String
+  <color:blue>◉</color>totalSpent: Decimal
+  ────────────
+  <color:purple>◆</color>validateUser()
+  <color:purple>◆</color>updateProfile()
+end note
+
+entity "PendingRegistration\n(from Lớp Thực Thể)" as E_PendingReg
+note bottom of E_PendingReg
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>email: String
+  <color:blue>◉</color>otp: String
+  <color:blue>◉</color>otpHash: String
+  <color:blue>◉</color>expiresAt: DateTime
+  <color:blue>◉</color>attempts: Integer
+  ────────────
+  <color:purple>◆</color>verifyOTP()
+  <color:purple>◆</color>isExpired()
+end note
+
+' ========== RELATIONSHIPS ==========
+User --> B_LoginPage
+User --> B_RegisterPage
+User --> B_AuthAPI
+B_LoginPage --> C_AuthCtrl
+B_RegisterPage --> C_AuthCtrl
+B_AuthAPI --> C_AuthCtrl
+C_AuthCtrl --> C_AuthSvc
+C_AuthCtrl --> C_UserSvc
+C_AuthSvc --> E_User
+C_AuthSvc --> E_PendingReg
+
+@enduml

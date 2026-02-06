@@ -1,0 +1,3345 @@
+{
+  "users": [
+    {
+      "id": "0082c381-234e-4998-8c76-8bf4e4656e9b",
+      "email": "sales@t1next.com",
+      "password": "$2a$10$PxN4jpH2jjbFUBaAz6mxg.osmH0k6xeT6N7e.iwp.jycqj91I3RqO",
+      "name": "Trần Văn Bán",
+      "avatar": "/avatar-male-user.jpg",
+      "phone": "0908888888",
+      "address": "T1next Store, Quận 3, TP.HCM",
+      "created_at": "2025-12-31T00:25:21.070Z",
+      "is_active": true,
+      "role": "sales",
+      "points": 0,
+      "tier": "bronze",
+      "total_spent": "0.00",
+      "order_count": 0,
+      "note": null
+    },
+    {
+      "id": "373e7894-614a-49a3-b468-97d129c348b1",
+      "email": "warehouse@t1next.com",
+      "password": "$2a$10$Aa3wf9G/Y8NO2Th8yAZJpOZyTSDepGAj8FQhj2OgWg.3boPJpsev2",
+      "name": "Lê Thị Kho",
+      "avatar": "/avatar-female-user.jpg",
+      "phone": "0907777777",
+      "address": "T1next Warehouse, Quận 7, TP.HCM",
+      "created_at": "2025-12-31T00:25:21.133Z",
+      "is_active": true,
+      "role": "warehouse",
+      "points": 0,
+      "tier": "bronze",
+      "total_spent": "0.00",
+      "order_count": 0,
+      "note": null
+    },
+    {
+      "id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "email": "user@example.com",
+      "password": "$2a$10$6akBzy0rOE/IjxKDPy6TrOXEqlRgYDrSnxsrxbkbs4rXy3p8v7mMK",
+      "name": "Nguyễn Văn A",
+      "avatar": "/avatar-male-user.jpg",
+      "phone": "0901234567",
+      "address": "123 Đường ABC, Quận 1, TP.HCM",
+      "created_at": "2025-12-31T00:25:21.197Z",
+      "is_active": true,
+      "role": "user",
+      "points": 13814,
+      "tier": "diamond",
+      "total_spent": "1381409500.00",
+      "order_count": 14,
+      "note": null
+    },
+    {
+      "id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "email": "user2@example.com",
+      "password": "$2a$10$m5J308KcNf7r27iR7CS4T.kriNgesZ.NokC4RTU2BBDjpAx.IPqTq",
+      "name": "Trần Thị B",
+      "avatar": "/avatar-female-user.jpg",
+      "phone": "0912345678",
+      "address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "created_at": "2025-12-31T00:25:21.261Z",
+      "is_active": true,
+      "role": "user",
+      "points": 19537,
+      "tier": "diamond",
+      "total_spent": "1953711900.00",
+      "order_count": 12,
+      "note": null
+    },
+    {
+      "id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "email": "user3@example.com",
+      "password": "$2a$10$lbjanXcoaBSSp0YA.NcjpOEENxC7s.ZXVzRHM.goZDU48wrvK2HLC",
+      "name": "Phạm Văn C",
+      "avatar": "/avatar-male-user.jpg",
+      "phone": "0923456789",
+      "address": "789 Đường DEF, Quận 3, TP.HCM",
+      "created_at": "2025-12-31T00:25:21.325Z",
+      "is_active": true,
+      "role": "user",
+      "points": 11581,
+      "tier": "diamond",
+      "total_spent": "1158179400.00",
+      "order_count": 9,
+      "note": null
+    },
+    {
+      "id": "d027adbf-74e6-4f75-89cd-341c7fbf94fa",
+      "email": "admin@t1next.com",
+      "password": "$2a$10$..l.cJKyS/eRN9YkLdHhou2AM3s6MD2cf7dDEVDb/3yYo3zAHDId2",
+      "name": "Admin T1next",
+      "avatar": "/avatar-male-user.jpg",
+      "phone": "0909999999",
+      "address": "T1next HQ, Quận 1, Hà Nội",
+      "created_at": "2025-12-31T00:25:20.999Z",
+      "is_active": true,
+      "role": "admin",
+      "points": 0,
+      "tier": "bronze",
+      "total_spent": "0.00",
+      "order_count": 0,
+      "note": null
+    }
+  ],
+  "products": [
+    {
+      "id": "57df0425-84ec-4b33-b76a-5b676bb090de",
+      "name": "Mac Mini M2 Pro",
+      "slug": "mac-mini-m2-pro",
+      "description": "Mac Mini với chip M2 Pro mạnh mẽ, thiết kế nhỏ gọn, hiệu năng workstation trong form factor mini.",
+      "price": "32990000.00",
+      "original_price": "36990000.00",
+      "images": [
+        "/mac-mini-m2-pro-silver-compact-desktop.jpg"
+      ],
+      "category_id": "4cbce94f-5444-4b3a-a841-967729681ee7",
+      "brand": "Apple",
+      "specs": {
+        "GPU": "16-core",
+        "RAM": "16GB",
+        "SSD": "512GB",
+        "Chip": "M2 Pro 10-core CPU",
+        "Cổng": "Thunderbolt 4 x4, HDMI, USB-A x2",
+        "Kích thước": "19.7 x 19.7 x 3.58 cm"
+      },
+      "stock": 25,
+      "rating": "5.0",
+      "review_count": 1,
+      "is_new": false,
+      "is_featured": false,
+      "discount": 11,
+      "created_at": "2025-12-31T00:25:20.904Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "f692d43b-32af-4d00-a9c8-8e14af7611b0",
+      "name": "LG UltraGear 27\" 4K Gaming",
+      "slug": "lg-ultragear-27-4k-gaming",
+      "description": "Màn hình gaming 27 inch 4K 144Hz, Nano IPS, 1ms GTG, HDMI 2.1 cho console next-gen, G-Sync Compatible.",
+      "price": "15990000.00",
+      "original_price": "18990000.00",
+      "images": [
+        "/lg-ultragear-27-inch-4k-gaming-monitor.jpg"
+      ],
+      "category_id": "f8c8c801-0b8b-4e43-9457-a87f1db2f140",
+      "brand": "LG",
+      "specs": {
+        "HDR": "HDR600",
+        "Panel": "Nano IPS",
+        "Tần số": "144Hz",
+        "Kích thước": "27 inch",
+        "Độ phân giải": "4K UHD 3840x2160",
+        "Thời gian phản hồi": "1ms GTG"
+      },
+      "stock": 30,
+      "rating": "4.0",
+      "review_count": 1,
+      "is_new": false,
+      "is_featured": false,
+      "discount": 16,
+      "created_at": "2025-12-31T00:25:20.907Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "149c3ce2-be1b-4732-9f4b-c416744e6280",
+      "name": "Samsung Odyssey G9 49\" OLED",
+      "slug": "samsung-odyssey-g9-49-oled",
+      "description": "Màn hình gaming cong 49 inch OLED, 240Hz, độ cong 1800R, tỷ lệ 32:9 siêu rộng cho trải nghiệm immersive.",
+      "price": "45990000.00",
+      "original_price": "52990000.00",
+      "images": [
+        "/samsung-odyssey-g9-49-inch-curved-oled-gaming-moni.jpg"
+      ],
+      "category_id": "f8c8c801-0b8b-4e43-9457-a87f1db2f140",
+      "brand": "Samsung",
+      "specs": {
+        "HDR": "HDR True Black 400",
+        "Panel": "QD-OLED",
+        "Tần số": "240Hz",
+        "Độ cong": "1800R",
+        "Kích thước": "49 inch",
+        "Độ phân giải": "DQHD 5120x1440"
+      },
+      "stock": 8,
+      "rating": "0.0",
+      "review_count": 0,
+      "is_new": true,
+      "is_featured": true,
+      "discount": 13,
+      "created_at": "2025-12-31T00:25:20.908Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "67d62a34-7bbc-428e-8b83-df6ad4c22740",
+      "name": "iPhone 15 Pro Max 256GB",
+      "slug": "iphone-15-pro-max-256gb",
+      "description": "iPhone 15 Pro Max với chip A17 Pro mạnh mẽ nhất, camera 48MP với khả năng zoom quang học 5x, khung titan cao cấp siêu nhẹ và bền. Hỗ trợ USB-C và Action Button mới.",
+      "price": "29990000.00",
+      "original_price": "34990000.00",
+      "images": [
+        "/iphone-15-pro-max-titanium-black-smartphone.jpg",
+        "/iphone-15-pro-max-titanium-black.jpg"
+      ],
+      "category_id": "46c73c25-5f79-4e38-bec6-2f2a4bcaa878",
+      "brand": "Apple",
+      "specs": {
+        "Pin": "4422mAh",
+        "RAM": "8GB",
+        "Chip": "A17 Pro",
+        "Camera": "48MP + 12MP + 12MP",
+        "Bộ nhớ": "256GB",
+        "Màn hình": "6.7 inch Super Retina XDR OLED"
+      },
+      "stock": 50,
+      "rating": "4.7",
+      "review_count": 3,
+      "is_new": true,
+      "is_featured": true,
+      "discount": 14,
+      "created_at": "2025-12-31T00:25:20.879Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "e9cfda55-f861-4205-92e1-b54018a30804",
+      "name": "Samsung Galaxy S24 Ultra 512GB",
+      "slug": "samsung-galaxy-s24-ultra-512gb",
+      "description": "Galaxy S24 Ultra với Galaxy AI tiên tiến, S Pen tích hợp, camera 200MP siêu nét. Khung Titan bền bỉ, màn hình Dynamic AMOLED 2X sáng nhất.",
+      "price": "31990000.00",
+      "original_price": "36990000.00",
+      "images": [
+        "/samsung-galaxy-s24-ultra-titanium-gray.jpg",
+        "/samsung-galaxy-s24-ultra-titanium-gray-smartphone.jpg"
+      ],
+      "category_id": "46c73c25-5f79-4e38-bec6-2f2a4bcaa878",
+      "brand": "Samsung",
+      "specs": {
+        "Pin": "5000mAh",
+        "RAM": "12GB",
+        "Chip": "Snapdragon 8 Gen 3",
+        "Camera": "200MP + 50MP + 12MP + 10MP",
+        "Bộ nhớ": "512GB",
+        "Màn hình": "6.8 inch Dynamic AMOLED 2X"
+      },
+      "stock": 35,
+      "rating": "4.5",
+      "review_count": 2,
+      "is_new": true,
+      "is_featured": true,
+      "discount": 14,
+      "created_at": "2025-12-31T00:25:20.886Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "2c74fafc-f3e9-403d-8a5d-f9f39e0f3151",
+      "name": "Xiaomi 14 Ultra 512GB",
+      "slug": "xiaomi-14-ultra-512gb",
+      "description": "Xiaomi 14 Ultra với hệ thống camera Leica chuyên nghiệp, cảm biến 1 inch, chip Snapdragon 8 Gen 3 mạnh mẽ.",
+      "price": "27990000.00",
+      "original_price": "31990000.00",
+      "images": [
+        "/xiaomi-14-ultra-black-leica-camera-smartphone.jpg",
+        "/xiaomi-14-ultra-black-leica-camera.jpg"
+      ],
+      "category_id": "46c73c25-5f79-4e38-bec6-2f2a4bcaa878",
+      "brand": "Xiaomi",
+      "specs": {
+        "Pin": "5000mAh",
+        "RAM": "16GB",
+        "Chip": "Snapdragon 8 Gen 3",
+        "Camera": "50MP Leica x4",
+        "Bộ nhớ": "512GB",
+        "Màn hình": "6.73 inch LTPO AMOLED"
+      },
+      "stock": 25,
+      "rating": "5.0",
+      "review_count": 2,
+      "is_new": true,
+      "is_featured": false,
+      "discount": 12,
+      "created_at": "2025-12-31T00:25:20.887Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "e3d3d9dd-c411-4a02-81ba-4101b5823aac",
+      "name": "OPPO Find X7 Ultra 256GB",
+      "slug": "oppo-find-x7-ultra-256gb",
+      "description": "OPPO Find X7 Ultra với camera Hasselblad, thiết kế da cao cấp, hiệu năng flagship.",
+      "price": "24990000.00",
+      "original_price": "28990000.00",
+      "images": [
+        "/oppo-find-x7-ultra-brown-leather-smartphone.jpg"
+      ],
+      "category_id": "46c73c25-5f79-4e38-bec6-2f2a4bcaa878",
+      "brand": "OPPO",
+      "specs": {
+        "Pin": "5000mAh",
+        "RAM": "12GB",
+        "Chip": "Snapdragon 8 Gen 3",
+        "Camera": "50MP Hasselblad x4",
+        "Bộ nhớ": "256GB",
+        "Màn hình": "6.82 inch LTPO AMOLED"
+      },
+      "stock": 20,
+      "rating": "0.0",
+      "review_count": 0,
+      "is_new": false,
+      "is_featured": false,
+      "discount": 14,
+      "created_at": "2025-12-31T00:25:20.889Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "ac2a0440-f981-40ce-8c09-722e11a8e215",
+      "name": "ASUS ROG Phone 8 Pro 512GB",
+      "slug": "asus-rog-phone-8-pro-512gb",
+      "description": "ROG Phone 8 Pro - Gaming phone đỉnh cao với Snapdragon 8 Gen 3, màn hình 165Hz, tản nhiệt AeroActive Cooler.",
+      "price": "26990000.00",
+      "original_price": "29990000.00",
+      "images": [
+        "/asus-rog-phone-8-pro-gaming-phone.jpg"
+      ],
+      "category_id": "46c73c25-5f79-4e38-bec6-2f2a4bcaa878",
+      "brand": "ASUS",
+      "specs": {
+        "Pin": "5500mAh",
+        "RAM": "16GB",
+        "Chip": "Snapdragon 8 Gen 3",
+        "Camera": "50MP + 32MP + 13MP",
+        "Bộ nhớ": "512GB",
+        "Màn hình": "6.78 inch LTPO AMOLED 165Hz"
+      },
+      "stock": 15,
+      "rating": "0.0",
+      "review_count": 0,
+      "is_new": true,
+      "is_featured": true,
+      "discount": 10,
+      "created_at": "2025-12-31T00:25:20.890Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "d646675c-1c5e-4f0e-9ac0-8f4ece45d411",
+      "name": "MacBook Pro 14\" M3 Pro",
+      "slug": "macbook-pro-14-m3-pro",
+      "description": "MacBook Pro 14 inch với chip M3 Pro 11-core CPU, 14-core GPU. Màn hình Liquid Retina XDR, pin 17 giờ, hiệu năng vượt trội cho công việc chuyên nghiệp.",
+      "price": "49990000.00",
+      "original_price": "54990000.00",
+      "images": [
+        "/macbook-pro-14-inch-space-gray.jpg"
+      ],
+      "category_id": "ae3a6dc7-2df1-4ebc-9969-e0c62ac9890e",
+      "brand": "Apple",
+      "specs": {
+        "GPU": "14-core",
+        "Pin": "17 giờ",
+        "RAM": "18GB",
+        "SSD": "512GB",
+        "Chip": "M3 Pro 11-core",
+        "Màn hình": "14.2 inch Liquid Retina XDR"
+      },
+      "stock": 20,
+      "rating": "5.0",
+      "review_count": 2,
+      "is_new": false,
+      "is_featured": true,
+      "discount": 9,
+      "created_at": "2025-12-31T00:25:20.892Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "06b80098-8bd3-42b2-b6bc-1fa6291531a8",
+      "name": "Dell XPS 15 OLED",
+      "slug": "dell-xps-15-oled",
+      "description": "Dell XPS 15 với màn hình OLED 3.5K tuyệt đẹp, Intel Core i7-13700H, RTX 4060. Thiết kế premium, bàn phím thoải mái.",
+      "price": "45990000.00",
+      "original_price": "52990000.00",
+      "images": [
+        "/dell-xps-15-oled-silver-laptop.jpg",
+        "/dell-xps-15-oled-silver-premium-laptop.jpg"
+      ],
+      "category_id": "ae3a6dc7-2df1-4ebc-9969-e0c62ac9890e",
+      "brand": "Dell",
+      "specs": {
+        "CPU": "Intel Core i7-13700H",
+        "GPU": "RTX 4060 8GB",
+        "Pin": "86Wh",
+        "RAM": "32GB DDR5",
+        "SSD": "1TB",
+        "Màn hình": "15.6 inch OLED 3.5K"
+      },
+      "stock": 15,
+      "rating": "3.0",
+      "review_count": 1,
+      "is_new": false,
+      "is_featured": false,
+      "discount": 13,
+      "created_at": "2025-12-31T00:25:20.894Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "4ad2e1d8-2680-4aff-b3d7-0f16933d69e5",
+      "name": "ASUS ROG Strix G16 Gaming",
+      "slug": "asus-rog-strix-g16-gaming",
+      "description": "ROG Strix G16 - Laptop gaming với Intel Core i9-13980HX, RTX 4070, màn hình 240Hz. RGB Aura Sync, tản nhiệt ROG Intelligent Cooling.",
+      "price": "52990000.00",
+      "original_price": "59990000.00",
+      "images": [
+        "/asus-rog-strix-g16-gaming-laptop-rgb.jpg"
+      ],
+      "category_id": "ae3a6dc7-2df1-4ebc-9969-e0c62ac9890e",
+      "brand": "ASUS",
+      "specs": {
+        "CPU": "Intel Core i9-13980HX",
+        "GPU": "RTX 4070 8GB",
+        "Pin": "90Wh",
+        "RAM": "32GB DDR5",
+        "SSD": "1TB",
+        "Màn hình": "16 inch QHD+ 240Hz"
+      },
+      "stock": 12,
+      "rating": "5.0",
+      "review_count": 3,
+      "is_new": true,
+      "is_featured": true,
+      "discount": 12,
+      "created_at": "2025-12-31T00:25:20.895Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "4e0656fa-547c-472b-8cbc-b8bc9cdef0e3",
+      "name": "Lenovo ThinkPad X1 Carbon Gen 11",
+      "slug": "lenovo-thinkpad-x1-carbon-gen-11",
+      "description": "ThinkPad X1 Carbon - Laptop doanh nhân cao cấp, siêu nhẹ 1.12kg, Intel Core i7 vPro, bảo mật doanh nghiệp.",
+      "price": "42990000.00",
+      "original_price": "47990000.00",
+      "images": [
+        "/lenovo-thinkpad-x1-carbon-black-business-laptop.jpg"
+      ],
+      "category_id": "ae3a6dc7-2df1-4ebc-9969-e0c62ac9890e",
+      "brand": "Lenovo",
+      "specs": {
+        "CPU": "Intel Core i7-1365U vPro",
+        "Pin": "57Wh",
+        "RAM": "32GB",
+        "SSD": "1TB",
+        "Màn hình": "14 inch 2.8K OLED",
+        "Trọng lượng": "1.12kg"
+      },
+      "stock": 18,
+      "rating": "5.0",
+      "review_count": 1,
+      "is_new": false,
+      "is_featured": false,
+      "discount": 10,
+      "created_at": "2025-12-31T00:25:20.897Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "dcd05c6e-80b8-4258-8eca-a324487ff7bd",
+      "name": "iPad Pro M4 11\" 256GB",
+      "slug": "ipad-pro-m4-11-256gb",
+      "description": "iPad Pro với chip M4 mới nhất, màn hình Ultra Retina XDR tandem OLED siêu mỏng. Hỗ trợ Apple Pencil Pro và Magic Keyboard.",
+      "price": "25990000.00",
+      "original_price": "28990000.00",
+      "images": [
+        "/ipad-pro-m4-11-inch-silver-tablet.jpg",
+        "/ipad-pro-m4-11-inch-silver.jpg"
+      ],
+      "category_id": "48ed31ef-7ff5-44c6-a396-869eadc39973",
+      "brand": "Apple",
+      "specs": {
+        "Pin": "10 giờ",
+        "RAM": "8GB",
+        "Chip": "M4",
+        "Camera": "12MP Wide + 10MP Ultra Wide",
+        "Bộ nhớ": "256GB",
+        "Màn hình": "11 inch Ultra Retina XDR OLED"
+      },
+      "stock": 30,
+      "rating": "4.3",
+      "review_count": 3,
+      "is_new": true,
+      "is_featured": false,
+      "discount": 10,
+      "created_at": "2025-12-31T00:25:20.899Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "2d44691c-4c6a-40e3-b7e8-88464563252f",
+      "name": "Samsung Galaxy Tab S9 Ultra",
+      "slug": "samsung-galaxy-tab-s9-ultra",
+      "description": "Galaxy Tab S9 Ultra với màn hình Dynamic AMOLED 2X 14.6 inch khổng lồ, S Pen đi kèm, IP68 chống nước.",
+      "price": "28990000.00",
+      "original_price": "32990000.00",
+      "images": [
+        "/samsung-galaxy-tab-s9-ultra-graphite-tablet.jpg",
+        "/samsung-galaxy-tab-s9-ultra-graphite.jpg"
+      ],
+      "category_id": "48ed31ef-7ff5-44c6-a396-869eadc39973",
+      "brand": "Samsung",
+      "specs": {
+        "Pin": "11200mAh",
+        "RAM": "12GB",
+        "Chip": "Snapdragon 8 Gen 2",
+        "Camera": "13MP + 8MP",
+        "Bộ nhớ": "256GB",
+        "Màn hình": "14.6 inch Dynamic AMOLED 2X"
+      },
+      "stock": 22,
+      "rating": "0.0",
+      "review_count": 0,
+      "is_new": false,
+      "is_featured": false,
+      "discount": 12,
+      "created_at": "2025-12-31T00:25:20.901Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "a8c3e870-99a4-4e93-aeb6-4d175c793c2b",
+      "name": "PC Gaming T1next Ryzen 7 RTX 4070",
+      "slug": "pc-gaming-t1next-ryzen-7-rtx-4070",
+      "description": "PC Gaming cấu hình mạnh mẽ với Ryzen 7 7800X3D - CPU gaming tốt nhất, RTX 4070 Super 12GB, case kính cường lực RGB.",
+      "price": "35990000.00",
+      "original_price": "39990000.00",
+      "images": [
+        "/gaming-pc-rgb-glass-case-rtx-4070.jpg"
+      ],
+      "category_id": "4cbce94f-5444-4b3a-a841-967729681ee7",
+      "brand": "T1next",
+      "specs": {
+        "CPU": "AMD Ryzen 7 7800X3D",
+        "GPU": "RTX 4070 Super 12GB",
+        "PSU": "750W 80+ Gold",
+        "RAM": "32GB DDR5 6000MHz",
+        "SSD": "1TB NVMe Gen4",
+        "Case": "RGB Glass"
+      },
+      "stock": 10,
+      "rating": "5.0",
+      "review_count": 2,
+      "is_new": true,
+      "is_featured": true,
+      "discount": 10,
+      "created_at": "2025-12-31T00:25:20.902Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "8b3aeaf4-7a85-48c8-a160-3df64fe29168",
+      "name": "PC Gaming T1next RTX 4080 White",
+      "slug": "pc-gaming-t1next-rtx-4080-white",
+      "description": "PC Gaming cao cấp full white với RTX 4080 Super, Intel Core i7-14700K, thiết kế tản nhiệt nước custom loop.",
+      "price": "65990000.00",
+      "original_price": "72990000.00",
+      "images": [
+        "/high-end-gaming-pc-rtx-4080-white-case-rgb.jpg"
+      ],
+      "category_id": "4cbce94f-5444-4b3a-a841-967729681ee7",
+      "brand": "T1next",
+      "specs": {
+        "CPU": "Intel Core i7-14700K",
+        "GPU": "RTX 4080 Super 16GB",
+        "RAM": "64GB DDR5 7200MHz",
+        "SSD": "2TB NVMe Gen4",
+        "Case": "White RGB",
+        "Cooling": "Custom Water Loop"
+      },
+      "stock": 5,
+      "rating": "3.0",
+      "review_count": 1,
+      "is_new": true,
+      "is_featured": true,
+      "discount": 10,
+      "created_at": "2025-12-31T00:25:20.903Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "609d5f3f-485d-4b86-b1fb-643ec8344ea1",
+      "name": "AirPods Pro 2 USB-C",
+      "slug": "airpods-pro-2-usb-c",
+      "description": "AirPods Pro thế hệ 2 với cổng USB-C, chip H2, chống ồn chủ động 2x, Adaptive Audio, Conversation Awareness.",
+      "price": "5990000.00",
+      "original_price": "6990000.00",
+      "images": [
+        "/airpods-pro-2-usb-c-white.jpg"
+      ],
+      "category_id": "ea1cc89b-fb06-4524-9e61-54c4016eb427",
+      "brand": "Apple",
+      "specs": {
+        "ANC": "Active Noise Cancellation 2x",
+        "Chip": "H2",
+        "Sạc": "USB-C, MagSafe, Qi",
+        "Pin case": "30 giờ",
+        "Pin tai nghe": "6 giờ",
+        "Chống nước": "IP54"
+      },
+      "stock": 100,
+      "rating": "5.0",
+      "review_count": 1,
+      "is_new": false,
+      "is_featured": false,
+      "discount": 14,
+      "created_at": "2025-12-31T00:25:20.910Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "7d112ce0-c6c2-4ec1-ba11-a55dd730905e",
+      "name": "Samsung Galaxy Buds3 Pro",
+      "slug": "samsung-galaxy-buds3-pro",
+      "description": "Tai nghe true wireless với thiết kế mới, ANC thông minh, âm thanh 360 Audio, Galaxy AI.",
+      "price": "4990000.00",
+      "original_price": "5490000.00",
+      "images": [
+        "/samsung-galaxy-buds3-pro-silver.jpg"
+      ],
+      "category_id": "ea1cc89b-fb06-4524-9e61-54c4016eb427",
+      "brand": "Samsung",
+      "specs": {
+        "ANC": "Intelligent ANC",
+        "Codec": "SSC, AAC, SBC",
+        "Driver": "10.5mm + 6.1mm",
+        "Pin case": "30 giờ",
+        "Pin tai nghe": "7 giờ",
+        "Chống nước": "IP57"
+      },
+      "stock": 80,
+      "rating": "3.0",
+      "review_count": 1,
+      "is_new": true,
+      "is_featured": false,
+      "discount": 9,
+      "created_at": "2025-12-31T00:25:20.914Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "fe79b57d-3d15-4058-b20f-5d455d98355b",
+      "name": "Logitech G Pro X Superlight 2",
+      "slug": "logitech-g-pro-x-superlight-2",
+      "description": "Chuột gaming không dây siêu nhẹ chỉ 60g, cảm biến HERO 2 32K DPI, pin 95 giờ, thiết kế đối xứng cho cả thuận tay trái.",
+      "price": "3290000.00",
+      "original_price": "3690000.00",
+      "images": [
+        "/logitech-g-pro-x-superlight-white-gaming-mouse.jpg"
+      ],
+      "category_id": "ea1cc89b-fb06-4524-9e61-54c4016eb427",
+      "brand": "Logitech",
+      "specs": {
+        "Pin": "95 giờ",
+        "Số nút": "5",
+        "Kết nối": "LIGHTSPEED Wireless",
+        "Cảm biến": "HERO 2 32K DPI",
+        "Polling rate": "2000Hz",
+        "Trọng lượng": "60g"
+      },
+      "stock": 50,
+      "rating": "5.0",
+      "review_count": 1,
+      "is_new": true,
+      "is_featured": true,
+      "discount": 11,
+      "created_at": "2025-12-31T00:25:20.917Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "99761938-b592-446e-acd7-e71cdba906aa",
+      "name": "Razer DeathAdder V3 Pro",
+      "slug": "razer-deathadder-v3-pro",
+      "description": "Chuột gaming ergonomic không dây với cảm biến Focus Pro 30K, switch quang học Gen-3, trọng lượng 63g.",
+      "price": "3490000.00",
+      "original_price": "3990000.00",
+      "images": [
+        "/razer-deathadder-v3-pro-black-gaming-mouse.jpg"
+      ],
+      "category_id": "ea1cc89b-fb06-4524-9e61-54c4016eb427",
+      "brand": "Razer",
+      "specs": {
+        "Pin": "90 giờ",
+        "Switch": "Optical Gen-3",
+        "Số nút": "5",
+        "Kết nối": "HyperSpeed Wireless",
+        "Cảm biến": "Focus Pro 30K DPI",
+        "Trọng lượng": "63g"
+      },
+      "stock": 40,
+      "rating": "0.0",
+      "review_count": 0,
+      "is_new": false,
+      "is_featured": false,
+      "discount": 13,
+      "created_at": "2025-12-31T00:25:20.918Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "27010ab4-4337-4c03-bfda-915935f75145",
+      "name": "Logitech G915 TKL",
+      "slug": "logitech-g915-tkl",
+      "description": "Bàn phím cơ gaming không dây siêu mỏng, switch GL Tactile, LIGHTSYNC RGB, pin 40 giờ.",
+      "price": "4990000.00",
+      "original_price": "5490000.00",
+      "images": [
+        "/logitech-g915-tkl-wireless-mechanical-keyboard.jpg"
+      ],
+      "category_id": "ea1cc89b-fb06-4524-9e61-54c4016eb427",
+      "brand": "Logitech",
+      "specs": {
+        "Pin": "40 giờ",
+        "RGB": "LIGHTSYNC RGB",
+        "Layout": "TKL (87 phím)",
+        "Switch": "GL Tactile",
+        "Chiều cao": "22mm",
+        "Kết nối": "LIGHTSPEED / Bluetooth / USB"
+      },
+      "stock": 25,
+      "rating": "0.0",
+      "review_count": 0,
+      "is_new": false,
+      "is_featured": false,
+      "discount": 9,
+      "created_at": "2025-12-31T00:25:20.922Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "22f95604-57ef-48e6-b08a-c8c285d95069",
+      "name": "Sony WH-1000XM5",
+      "slug": "sony-wh-1000xm5",
+      "description": "Tai nghe chống ồn hàng đầu thế giới với 8 microphone, chip V1, pin 30 giờ, thiết kế gập gọn mới.",
+      "price": "7990000.00",
+      "original_price": "8990000.00",
+      "images": [
+        "/sony-wh-1000xm5-black-headphones.jpg"
+      ],
+      "category_id": "ea1cc89b-fb06-4524-9e61-54c4016eb427",
+      "brand": "Sony",
+      "specs": {
+        "ANC": "8 microphones",
+        "Pin": "30 giờ",
+        "Codec": "LDAC, AAC, SBC",
+        "Driver": "30mm",
+        "Sạc nhanh": "3 phút = 3 giờ",
+        "Trọng lượng": "250g"
+      },
+      "stock": 59,
+      "rating": "5.0",
+      "review_count": 1,
+      "is_new": false,
+      "is_featured": true,
+      "discount": 11,
+      "created_at": "2025-12-31T00:25:20.911Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "8a242676-895e-4e62-a3b7-4e371c5c63eb",
+      "name": "Apple Watch Series 9 45mm",
+      "slug": "apple-watch-series-9-45mm",
+      "description": "Apple Watch Series 9 với chip S9 SiP, Double Tap gesture mới, màn hình sáng 2000 nits, carbon neutral.",
+      "price": "11990000.00",
+      "original_price": "12990000.00",
+      "images": [
+        "/apple-watch-series-9-45mm-midnight.jpg"
+      ],
+      "category_id": "c22c1776-521f-4cb2-bb00-f3b235177ae6",
+      "brand": "Apple",
+      "specs": {
+        "Pin": "18 giờ",
+        "Chip": "S9 SiP",
+        "Màn hình": "45mm LTPO OLED",
+        "Tính năng": "Double Tap, Crash Detection",
+        "Độ sáng": "2000 nits",
+        "Chống nước": "50m"
+      },
+      "stock": 44,
+      "rating": "4.5",
+      "review_count": 2,
+      "is_new": true,
+      "is_featured": false,
+      "discount": 8,
+      "created_at": "2025-12-31T00:25:20.916Z",
+      "low_stock_threshold": 10
+    },
+    {
+      "id": "15345b50-9cbc-4ebf-b287-bc59d4d5f483",
+      "name": "Keychron Q1 Pro",
+      "slug": "keychron-q1-pro",
+      "description": "Bàn phím cơ custom 75% với vỏ nhôm CNC, gasket mount, QMK/VIA, kết nối 3 chế độ Bluetooth/2.4GHz/USB-C.",
+      "price": "4590000.00",
+      "original_price": "4990000.00",
+      "images": [
+        "/keychron-q1-pro-mechanical-keyboard-rgb.jpg"
+      ],
+      "category_id": "ea1cc89b-fb06-4524-9e61-54c4016eb427",
+      "brand": "Keychron",
+      "specs": {
+        "Pin": "4000mAh",
+        "Vỏ": "Nhôm CNC",
+        "Layout": "75% (84 phím)",
+        "Switch": "Gateron Jupiter Brown",
+        "Hot-swap": "Có",
+        "Kết nối": "Bluetooth 5.1 / 2.4GHz / USB-C"
+      },
+      "stock": 33,
+      "rating": "5.0",
+      "review_count": 1,
+      "is_new": true,
+      "is_featured": true,
+      "discount": 8,
+      "created_at": "2025-12-31T00:25:20.921Z",
+      "low_stock_threshold": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": "46c73c25-5f79-4e38-bec6-2f2a4bcaa878",
+      "name": "Điện thoại",
+      "slug": "dien-thoai",
+      "icon": "smartphone",
+      "description": "Smartphone cao cấp từ các thương hiệu hàng đầu",
+      "product_count": 5,
+      "created_at": "2025-12-31T00:25:20.862Z"
+    },
+    {
+      "id": "ae3a6dc7-2df1-4ebc-9969-e0c62ac9890e",
+      "name": "Laptop",
+      "slug": "laptop",
+      "icon": "laptop",
+      "description": "Laptop văn phòng, gaming và workstation",
+      "product_count": 4,
+      "created_at": "2025-12-31T00:25:20.870Z"
+    },
+    {
+      "id": "48ed31ef-7ff5-44c6-a396-869eadc39973",
+      "name": "Tablet",
+      "slug": "tablet",
+      "icon": "tablet",
+      "description": "Máy tính bảng đa năng",
+      "product_count": 2,
+      "created_at": "2025-12-31T00:25:20.872Z"
+    },
+    {
+      "id": "4cbce94f-5444-4b3a-a841-967729681ee7",
+      "name": "PC & Gaming",
+      "slug": "pc-gaming",
+      "icon": "monitor",
+      "description": "PC Gaming và máy tính để bàn",
+      "product_count": 3,
+      "created_at": "2025-12-31T00:25:20.872Z"
+    },
+    {
+      "id": "f8c8c801-0b8b-4e43-9457-a87f1db2f140",
+      "name": "Màn hình",
+      "slug": "man-hinh",
+      "icon": "tv",
+      "description": "Màn hình gaming và văn phòng",
+      "product_count": 2,
+      "created_at": "2025-12-31T00:25:20.873Z"
+    },
+    {
+      "id": "238f970b-c059-4515-9c83-a6d648ce74cf",
+      "name": "Linh kiện PC",
+      "slug": "linh-kien",
+      "icon": "cpu",
+      "description": "CPU, GPU, RAM, SSD và linh kiện máy tính",
+      "product_count": 0,
+      "created_at": "2025-12-31T00:25:20.874Z"
+    },
+    {
+      "id": "c55cf450-7452-4d28-8e7d-aeb660e769d1",
+      "name": "TV & Âm thanh",
+      "slug": "tv-am-thanh",
+      "icon": "speaker",
+      "description": "TV, loa, soundbar và thiết bị âm thanh",
+      "product_count": 0,
+      "created_at": "2025-12-31T00:25:20.874Z"
+    },
+    {
+      "id": "ea1cc89b-fb06-4524-9e61-54c4016eb427",
+      "name": "Phụ kiện",
+      "slug": "phu-kien",
+      "icon": "headphones",
+      "description": "Tai nghe, chuột, bàn phím và phụ kiện",
+      "product_count": 7,
+      "created_at": "2025-12-31T00:25:20.875Z"
+    },
+    {
+      "id": "c22c1776-521f-4cb2-bb00-f3b235177ae6",
+      "name": "Đồng hồ thông minh",
+      "slug": "dong-ho",
+      "icon": "watch",
+      "description": "Smartwatch và thiết bị đeo",
+      "product_count": 1,
+      "created_at": "2025-12-31T00:25:20.876Z"
+    },
+    {
+      "id": "d08efc0a-d48e-4b8f-89db-e432723c7ee3",
+      "name": "Camera & Máy ảnh",
+      "slug": "camera",
+      "icon": "camera",
+      "description": "Camera, máy ảnh và phụ kiện quay phim",
+      "product_count": 0,
+      "created_at": "2025-12-31T00:25:20.876Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "421a45c4-1bbf-47a3-9aad-e1ad20ff5470",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "35980000.00",
+      "status": "delivered",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "bank_transfer",
+      "created_at": "2025-12-31T00:25:21.339Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "894ed4bc-0c50-4087-a8c4-48c820de0970",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "49990000.00",
+      "status": "delivered",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2025-12-31T00:25:21.345Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "ae132e2e-2da1-49b0-8e3b-37a41bce59eb",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "31990000.00",
+      "status": "shipping",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "bank_transfer",
+      "created_at": "2025-12-31T00:25:21.347Z",
+      "note": null,
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "85b2a239-9957-433e-aa96-f4c0be4d2126",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "total": "65990000.00",
+      "status": "confirmed",
+      "shipping_address": "789 Đường DEF, Quận 3, TP.HCM",
+      "payment_method": "bank_transfer",
+      "created_at": "2025-12-31T00:25:21.349Z",
+      "note": null,
+      "phone": "0923456789",
+      "recipient_name": "Phạm Văn C",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "4fe3b9a5-b30f-45f3-8383-20ce7f013a9a",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "total": "53980000.00",
+      "status": "delivered",
+      "shipping_address": "789 Đường DEF, Quận 3, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2025-12-31T00:25:21.351Z",
+      "note": null,
+      "phone": "0923456789",
+      "recipient_name": "Phạm Văn C",
+      "discount_amount": "4000000.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "b57f86aa-4e39-4304-bb8d-ebb7fcfea8e6",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "147950000.00",
+      "status": "delivered",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2025-11-01T15:43:47.519Z",
+      "note": null,
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "f65d8be6-d3eb-42bb-a52a-3a91ae125fa1",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "139930000.00",
+      "status": "cancelled",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "bank_transfer",
+      "created_at": "2025-11-12T16:52:44.948Z",
+      "note": "Giao giờ hành chính",
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "f8ed55b7-b095-4135-900e-b7fdc3ed545c",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "45740000.00",
+      "status": "confirmed",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "bank_transfer",
+      "created_at": "2025-10-07T09:31:29.596Z",
+      "note": null,
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "dda11300-ab48-40d6-a450-338e860e300a",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "27890700.00",
+      "status": "shipping",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "vnpay",
+      "created_at": "2025-11-05T10:55:42.389Z",
+      "note": null,
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "2099300.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "4392a132-13ad-465c-9583-ec45406e2f1f",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "42990000.00",
+      "status": "delivered",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2025-11-03T20:26:34.978Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "40aea674-de2d-434e-9bb3-4c6fc2e64f8f",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "64550000.00",
+      "status": "delivered",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "bank_transfer",
+      "created_at": "2025-12-20T01:08:41.575Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "5fd04872-540d-48ad-8256-6ed1839f4250",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "120450000.00",
+      "status": "delivered",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "vnpay",
+      "created_at": "2025-12-22T14:33:02.361Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "eac032c2-89fb-4f52-831c-75645c5bfbc7",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "total": "158970000.00",
+      "status": "delivered",
+      "shipping_address": "789 Đường DEF, Quận 3, TP.HCM",
+      "payment_method": "bank_transfer",
+      "created_at": "2025-11-22T16:04:22.837Z",
+      "note": null,
+      "phone": "0923456789",
+      "recipient_name": "Phạm Văn C",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "c0e3b42d-fceb-44c0-935c-5fe8d31599ef",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "226910000.00",
+      "status": "confirmed",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "vnpay",
+      "created_at": "2025-12-20T17:00:39.909Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "ae309cc7-5253-4133-8f42-db66c0a208ab",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "total": "9318300.00",
+      "status": "cancelled",
+      "shipping_address": "789 Đường DEF, Quận 3, TP.HCM",
+      "payment_method": "momo",
+      "created_at": "2025-11-25T19:05:32.087Z",
+      "note": null,
+      "phone": "0923456789",
+      "recipient_name": "Phạm Văn C",
+      "discount_amount": "1151700.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "afaa7a1a-18de-4841-ae0b-108484bb272b",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "244749000.00",
+      "status": "cancelled",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "vnpay",
+      "created_at": "2025-11-05T06:27:13.274Z",
+      "note": "Giao giờ hành chính",
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "43191000.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "30fdc2e4-c7a8-4315-ab9c-e764c55e03d3",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "total": "59970000.00",
+      "status": "delivered",
+      "shipping_address": "789 Đường DEF, Quận 3, TP.HCM",
+      "payment_method": "vnpay",
+      "created_at": "2025-10-09T17:01:35.715Z",
+      "note": "Giao giờ hành chính",
+      "phone": "0923456789",
+      "recipient_name": "Phạm Văn C",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "ad1b4e40-756d-4756-8b53-57084893ec3b",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "total": "149970000.00",
+      "status": "delivered",
+      "shipping_address": "789 Đường DEF, Quận 3, TP.HCM",
+      "payment_method": "vnpay",
+      "created_at": "2025-12-18T00:22:53.914Z",
+      "note": null,
+      "phone": "0923456789",
+      "recipient_name": "Phạm Văn C",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "a928e99d-9007-48b3-aaba-cf4807404c44",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "99482100.00",
+      "status": "delivered",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "momo",
+      "created_at": "2025-12-30T07:12:55.985Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "7487900.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "1aa4854d-b8e1-4a8a-97d9-6fe5a4d38183",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "345920000.00",
+      "status": "confirmed",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "vnpay",
+      "created_at": "2025-11-15T04:03:18.537Z",
+      "note": "Giao giờ hành chính",
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "ab466ae2-660d-41ac-89b3-6a9e9c586928",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "69750000.00",
+      "status": "delivered",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "vnpay",
+      "created_at": "2025-12-22T12:17:11.570Z",
+      "note": null,
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "cbfd8985-c0cf-4c40-9442-a5dcbb3fae5d",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "59980000.00",
+      "status": "pending",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2025-12-23T21:46:43.359Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "c5ba0ac2-171f-44cd-bb0a-c0533b0fd082",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "40530000.00",
+      "status": "delivered",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "bank_transfer",
+      "created_at": "2025-11-17T11:43:08.619Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "446d938e-8508-4d92-bc46-3a96734a7989",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "76921500.00",
+      "status": "delivered",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "bank_transfer",
+      "created_at": "2025-11-15T09:20:36.520Z",
+      "note": null,
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "4048500.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "75116db0-19a6-46fc-a02b-588c1bcb7221",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "26604600.00",
+      "status": "delivered",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2025-11-02T14:01:48.192Z",
+      "note": "Giao giờ hành chính",
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "3975400.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "cfca404f-242c-4a89-8068-0718c991f625",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "254166600.00",
+      "status": "pending",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2025-12-22T03:31:12.926Z",
+      "note": null,
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "16223400.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "65e1e41f-96bb-4558-bcbf-4137e83a5a27",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "total": "4590000.00",
+      "status": "cancelled",
+      "shipping_address": "789 Đường DEF, Quận 3, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2025-10-27T01:15:13.788Z",
+      "note": null,
+      "phone": "0923456789",
+      "recipient_name": "Phạm Văn C",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "0b6f8390-6ecb-4391-a892-c434d0cf5985",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "368900000.00",
+      "status": "delivered",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2025-11-22T18:23:33.226Z",
+      "note": null,
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "4ccf9b62-efd4-4f9e-876d-013a671cdf43",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "total": "260930000.00",
+      "status": "confirmed",
+      "shipping_address": "789 Đường DEF, Quận 3, TP.HCM",
+      "payment_method": "vnpay",
+      "created_at": "2025-11-22T13:23:54.227Z",
+      "note": null,
+      "phone": "0923456789",
+      "recipient_name": "Phạm Văn C",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "e3a7bf59-3458-4612-afbb-e20cf49319c6",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "158970000.00",
+      "status": "confirmed",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "vnpay",
+      "created_at": "2025-10-04T10:00:24.260Z",
+      "note": "Giao giờ hành chính",
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "0b5e86a9-0b81-47ac-9ef9-32251b44bde9",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "89970000.00",
+      "status": "delivered",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "vnpay",
+      "created_at": "2025-11-01T01:15:09.366Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "2f98a9f5-2845-469b-9c88-9235b4ed4690",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "69550000.00",
+      "status": "delivered",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "momo",
+      "created_at": "2025-10-14T15:49:33.952Z",
+      "note": "Giao giờ hành chính",
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "e4345af7-a7bb-47d3-aafc-3edab2ac79db",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "total": "92980000.00",
+      "status": "delivered",
+      "shipping_address": "789 Đường DEF, Quận 3, TP.HCM",
+      "payment_method": "momo",
+      "created_at": "2025-11-24T01:36:07.962Z",
+      "note": null,
+      "phone": "0923456789",
+      "recipient_name": "Phạm Văn C",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "da35eaf8-e453-4c64-899a-eb537b805b4b",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "103970000.00",
+      "status": "shipping",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2025-12-19T02:51:36.011Z",
+      "note": null,
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "ee5deb8b-d291-4304-ac99-706b0d9e061c",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "157910000.00",
+      "status": "delivered",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "vnpay",
+      "created_at": "2025-10-09T06:05:25.218Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "d7c7433b-704d-4e9f-8aa5-c817a346fbd9",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "total": "198849000.00",
+      "status": "delivered",
+      "shipping_address": "789 Đường DEF, Quận 3, TP.HCM",
+      "payment_method": "vnpay",
+      "created_at": "2025-11-22T17:41:42.715Z",
+      "note": null,
+      "phone": "0923456789",
+      "recipient_name": "Phạm Văn C",
+      "discount_amount": "35091000.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "2f144e1b-0876-4858-81d0-3ef997ed16d5",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "126424200.00",
+      "status": "delivered",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "bank_transfer",
+      "created_at": "2025-10-15T01:14:44.818Z",
+      "note": null,
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "9515800.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "bbf3daed-ef9f-450f-aaff-5e1ee3bbac7a",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "284744800.00",
+      "status": "shipping",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "bank_transfer",
+      "created_at": "2025-12-22T18:07:19.292Z",
+      "note": null,
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "18175200.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "47d39d2f-1589-4ac5-92db-76254f9c628b",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "239930000.00",
+      "status": "confirmed",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "momo",
+      "created_at": "2025-12-29T17:29:13.652Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "ffd2acb9-9652-4d40-968b-065d99bc6f5e",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "3993300.00",
+      "status": "delivered",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "bank_transfer",
+      "created_at": "2025-10-21T08:53:45.078Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "596700.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "3f4fb6be-1f2c-4f8c-857d-85b0f369c757",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "47583000.00",
+      "status": "shipping",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "vnpay",
+      "created_at": "2025-12-30T21:29:19.684Z",
+      "note": "Giao giờ hành chính",
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "8397000.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "5f5256fa-e4a8-4d83-81c4-c21a8c5c706b",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "204911100.00",
+      "status": "delivered",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "momo",
+      "created_at": "2025-10-22T09:00:41.893Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "30618900.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "2509c631-089d-4eed-be26-229334e39b26",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "total": "63960000.00",
+      "status": "delivered",
+      "shipping_address": "789 Đường DEF, Quận 3, TP.HCM",
+      "payment_method": "momo",
+      "created_at": "2025-11-07T12:03:08.820Z",
+      "note": null,
+      "phone": "0923456789",
+      "recipient_name": "Phạm Văn C",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "716899e3-e0da-41bc-8a71-d88d1d4bc1a9",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "322030800.00",
+      "status": "delivered",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "momo",
+      "created_at": "2025-11-26T15:10:54.217Z",
+      "note": "Giao giờ hành chính",
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "31849200.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "839ac094-8222-47ba-8509-4abcc681ce34",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "144150000.00",
+      "status": "shipping",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2025-10-09T05:30:03.369Z",
+      "note": null,
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "c4ad7a37-4e08-4993-ac2c-1e90c6092876",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "193739000.00",
+      "status": "confirmed",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "momo",
+      "created_at": "2025-12-17T15:30:13.981Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "19161000.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "81c4eba4-1fe4-4cf2-87ac-88612dd99c10",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "331800000.00",
+      "status": "delivered",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "momo",
+      "created_at": "2025-11-15T17:55:41.460Z",
+      "note": null,
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "da1cd3ea-b5d7-4f10-b1e3-3c9fe05693fc",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "320220000.00",
+      "status": "delivered",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "momo",
+      "created_at": "2025-10-05T17:47:30.778Z",
+      "note": "Giao giờ hành chính",
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "61002da2-396e-4b52-8091-0932333e3cdf",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "53240000.00",
+      "status": "delivered",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2025-10-27T10:57:02.629Z",
+      "note": null,
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "061e4069-3b6f-4965-8d15-e90ebe2bf38b",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "80440000.00",
+      "status": "delivered",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "vnpay",
+      "created_at": "2025-10-08T17:49:56.146Z",
+      "note": "Giao giờ hành chính",
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "67f1977b-0eeb-453a-9498-5d96ce44ff78",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "total": "139612000.00",
+      "status": "delivered",
+      "shipping_address": "789 Đường DEF, Quận 3, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2025-10-17T04:33:10.088Z",
+      "note": null,
+      "phone": "0923456789",
+      "recipient_name": "Phạm Văn C",
+      "discount_amount": "7348000.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "3b91bddc-549e-4a01-bb50-2664ac827dfe",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "61183000.00",
+      "status": "delivered",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "momo",
+      "created_at": "2025-10-16T08:29:09.675Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "10797000.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "be128280-a98a-4465-9755-6344450f94de",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "total": "239888400.00",
+      "status": "delivered",
+      "shipping_address": "789 Đường DEF, Quận 3, TP.HCM",
+      "payment_method": "momo",
+      "created_at": "2025-10-20T02:48:58.113Z",
+      "note": "Giao giờ hành chính",
+      "phone": "0923456789",
+      "recipient_name": "Phạm Văn C",
+      "discount_amount": "39051600.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "c6223472-235c-4689-913f-1c9d0d666821",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "339920000.00",
+      "status": "delivered",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "momo",
+      "created_at": "2025-11-12T21:10:05.932Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "90d7c81f-d740-489d-bcf8-e33c9029224a",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "total": "29430800.00",
+      "status": "delivered",
+      "shipping_address": "456 Đường XYZ, Quận 2, TP.HCM",
+      "payment_method": "momo",
+      "created_at": "2025-12-19T08:40:20.495Z",
+      "note": null,
+      "phone": "0912345678",
+      "recipient_name": "Trần Thị B",
+      "discount_amount": "2559200.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "c47b6ae1-e949-4a52-9b46-bed3b17f4418",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "19810000.00",
+      "status": "confirmed",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2025-12-31T17:50:19.196Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "200000.00",
+      "promotion_id": "8b4e4488-ca32-4528-a42d-20f18a3fc677",
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "81f2602f-209c-4af4-a9cb-70cf81f7a3e6",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "25990000.00",
+      "status": "delivered",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "bank_transfer",
+      "created_at": "2025-12-31T00:25:21.353Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "198fd9c3-19da-43ae-bbda-27201d49c334",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "total": "4620000.00",
+      "status": "cancelled",
+      "shipping_address": "123 Đường ABC, Quận 1, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2025-12-31T19:17:51.905Z",
+      "note": null,
+      "phone": "0901234567",
+      "recipient_name": "Nguyễn Văn A",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "6698f58b-d15c-44cc-a2ad-ccb436e94f09",
+      "user_id": "d027adbf-74e6-4f75-89cd-341c7fbf94fa",
+      "total": "4590000.00",
+      "status": "pending",
+      "shipping_address": "T1next HQ, Quận 1, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2026-01-01T01:01:55.768Z",
+      "note": null,
+      "phone": "0909999999",
+      "recipient_name": "Admin T1next",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    },
+    {
+      "id": "a16c39aa-e985-4f5a-8885-7fd3bee6a01d",
+      "user_id": "d027adbf-74e6-4f75-89cd-341c7fbf94fa",
+      "total": "4590000.00",
+      "status": "pending",
+      "shipping_address": "T1next HQ, Quận 1, TP.HCM",
+      "payment_method": "cod",
+      "created_at": "2026-01-01T01:03:55.685Z",
+      "note": null,
+      "phone": "0909999999",
+      "recipient_name": "Admin T1next",
+      "discount_amount": "0.00",
+      "promotion_id": null,
+      "subtotal": null,
+      "shipping_carrier": null,
+      "shipping_fee": "0.00",
+      "tracking_code": null
+    }
+  ],
+  "order_items": [
+    {
+      "id": "4e647bcc-314c-4fd2-bc09-b08ef9afca98",
+      "order_id": "421a45c4-1bbf-47a3-9aad-e1ad20ff5470",
+      "product_id": "67d62a34-7bbc-428e-8b83-df6ad4c22740",
+      "quantity": 1,
+      "price": "29990000.00"
+    },
+    {
+      "id": "89f07b24-187c-468f-be54-9c511e10a3ad",
+      "order_id": "421a45c4-1bbf-47a3-9aad-e1ad20ff5470",
+      "product_id": "609d5f3f-485d-4b86-b1fb-643ec8344ea1",
+      "quantity": 1,
+      "price": "5990000.00"
+    },
+    {
+      "id": "2e54a18d-3bfe-4af5-9639-8e3a4d0d5c3a",
+      "order_id": "894ed4bc-0c50-4087-a8c4-48c820de0970",
+      "product_id": "d646675c-1c5e-4f0e-9ac0-8f4ece45d411",
+      "quantity": 1,
+      "price": "49990000.00"
+    },
+    {
+      "id": "70f0dd55-d648-4575-b757-faf82f139440",
+      "order_id": "ae132e2e-2da1-49b0-8e3b-37a41bce59eb",
+      "product_id": "e9cfda55-f861-4205-92e1-b54018a30804",
+      "quantity": 1,
+      "price": "31990000.00"
+    },
+    {
+      "id": "47167ecb-4b8a-4269-8d05-59b2f9c097d0",
+      "order_id": "85b2a239-9957-433e-aa96-f4c0be4d2126",
+      "product_id": "8b3aeaf4-7a85-48c8-a160-3df64fe29168",
+      "quantity": 1,
+      "price": "65990000.00"
+    },
+    {
+      "id": "94785d34-c32f-46ba-90c1-a5c279659529",
+      "order_id": "4fe3b9a5-b30f-45f3-8383-20ce7f013a9a",
+      "product_id": "4ad2e1d8-2680-4aff-b3d7-0f16933d69e5",
+      "quantity": 1,
+      "price": "52990000.00"
+    },
+    {
+      "id": "8fa34e99-0b59-4390-b1cf-e41b58a12956",
+      "order_id": "4fe3b9a5-b30f-45f3-8383-20ce7f013a9a",
+      "product_id": "7d112ce0-c6c2-4ec1-ba11-a55dd730905e",
+      "quantity": 1,
+      "price": "4990000.00"
+    },
+    {
+      "id": "d1332093-8d47-442c-a90c-cf7d0bb1c7e0",
+      "order_id": "81f2602f-209c-4af4-a9cb-70cf81f7a3e6",
+      "product_id": "dcd05c6e-80b8-4258-8eca-a324487ff7bd",
+      "quantity": 1,
+      "price": "25990000.00"
+    },
+    {
+      "id": "7ee32b1d-1f44-44fc-8edb-18eaa0975ac7",
+      "order_id": "b57f86aa-4e39-4304-bb8d-ebb7fcfea8e6",
+      "product_id": "06b80098-8bd3-42b2-b6bc-1fa6291531a8",
+      "quantity": 3,
+      "price": "45990000.00"
+    },
+    {
+      "id": "30c3757e-4649-445a-b334-99e466b5abc6",
+      "order_id": "b57f86aa-4e39-4304-bb8d-ebb7fcfea8e6",
+      "product_id": "27010ab4-4337-4c03-bfda-915935f75145",
+      "quantity": 2,
+      "price": "4990000.00"
+    },
+    {
+      "id": "7f40641e-cc66-4a7a-8f1a-89c9f889df6b",
+      "order_id": "f65d8be6-d3eb-42bb-a52a-3a91ae125fa1",
+      "product_id": "dcd05c6e-80b8-4258-8eca-a324487ff7bd",
+      "quantity": 1,
+      "price": "25990000.00"
+    },
+    {
+      "id": "75c44fd0-3fc1-475d-8bd0-6614ade36c01",
+      "order_id": "f65d8be6-d3eb-42bb-a52a-3a91ae125fa1",
+      "product_id": "149c3ce2-be1b-4732-9f4b-c416744e6280",
+      "quantity": 2,
+      "price": "45990000.00"
+    },
+    {
+      "id": "6b63bf21-fa95-4609-8524-cf8776e68e6d",
+      "order_id": "f65d8be6-d3eb-42bb-a52a-3a91ae125fa1",
+      "product_id": "609d5f3f-485d-4b86-b1fb-643ec8344ea1",
+      "quantity": 2,
+      "price": "5990000.00"
+    },
+    {
+      "id": "910da712-d44f-4183-9604-9bf2bd76ee70",
+      "order_id": "f65d8be6-d3eb-42bb-a52a-3a91ae125fa1",
+      "product_id": "27010ab4-4337-4c03-bfda-915935f75145",
+      "quantity": 2,
+      "price": "4990000.00"
+    },
+    {
+      "id": "46624696-f48f-45d1-81e5-9f048ab2ef20",
+      "order_id": "f8ed55b7-b095-4135-900e-b7fdc3ed545c",
+      "product_id": "f692d43b-32af-4d00-a9c8-8e14af7611b0",
+      "quantity": 2,
+      "price": "15990000.00"
+    },
+    {
+      "id": "f52fa193-0cdf-44e8-b2b3-30adc9a26404",
+      "order_id": "f8ed55b7-b095-4135-900e-b7fdc3ed545c",
+      "product_id": "fe79b57d-3d15-4058-b20f-5d455d98355b",
+      "quantity": 1,
+      "price": "3290000.00"
+    },
+    {
+      "id": "96e83af9-f0d2-49da-a86f-db1d6027388f",
+      "order_id": "f8ed55b7-b095-4135-900e-b7fdc3ed545c",
+      "product_id": "99761938-b592-446e-acd7-e71cdba906aa",
+      "quantity": 3,
+      "price": "3490000.00"
+    },
+    {
+      "id": "91ff4834-f1a6-41ad-bb77-b213059800c9",
+      "order_id": "dda11300-ab48-40d6-a450-338e860e300a",
+      "product_id": "67d62a34-7bbc-428e-8b83-df6ad4c22740",
+      "quantity": 1,
+      "price": "29990000.00"
+    },
+    {
+      "id": "4fd2be3c-02cf-4f29-9a0b-eadaf20ced94",
+      "order_id": "4392a132-13ad-465c-9583-ec45406e2f1f",
+      "product_id": "4e0656fa-547c-472b-8cbc-b8bc9cdef0e3",
+      "quantity": 1,
+      "price": "42990000.00"
+    },
+    {
+      "id": "418f8d91-2b9f-4787-9adc-03d478cf517c",
+      "order_id": "40aea674-de2d-434e-9bb3-4c6fc2e64f8f",
+      "product_id": "e3d3d9dd-c411-4a02-81ba-4101b5823aac",
+      "quantity": 2,
+      "price": "24990000.00"
+    },
+    {
+      "id": "0c4a9025-597b-42bf-a3c6-ee5cc6099c5e",
+      "order_id": "40aea674-de2d-434e-9bb3-4c6fc2e64f8f",
+      "product_id": "27010ab4-4337-4c03-bfda-915935f75145",
+      "quantity": 2,
+      "price": "4990000.00"
+    },
+    {
+      "id": "d10f1216-503e-485b-a9c1-d9bf98e413a7",
+      "order_id": "40aea674-de2d-434e-9bb3-4c6fc2e64f8f",
+      "product_id": "15345b50-9cbc-4ebf-b287-bc59d4d5f483",
+      "quantity": 1,
+      "price": "4590000.00"
+    },
+    {
+      "id": "5f9b9a03-288e-410a-8148-fdc10f9266d2",
+      "order_id": "5fd04872-540d-48ad-8256-6ed1839f4250",
+      "product_id": "99761938-b592-446e-acd7-e71cdba906aa",
+      "quantity": 1,
+      "price": "3490000.00"
+    },
+    {
+      "id": "f9d598b2-e6e5-48a7-8893-f3d2fef0d478",
+      "order_id": "5fd04872-540d-48ad-8256-6ed1839f4250",
+      "product_id": "67d62a34-7bbc-428e-8b83-df6ad4c22740",
+      "quantity": 2,
+      "price": "29990000.00"
+    },
+    {
+      "id": "b155ff6b-0e5d-4ac8-8a95-2582bc8c1510",
+      "order_id": "5fd04872-540d-48ad-8256-6ed1839f4250",
+      "product_id": "e3d3d9dd-c411-4a02-81ba-4101b5823aac",
+      "quantity": 1,
+      "price": "24990000.00"
+    },
+    {
+      "id": "67d0004d-c0a1-4104-9c4d-a16bb578c8bb",
+      "order_id": "5fd04872-540d-48ad-8256-6ed1839f4250",
+      "product_id": "e9cfda55-f861-4205-92e1-b54018a30804",
+      "quantity": 1,
+      "price": "31990000.00"
+    },
+    {
+      "id": "7734cc89-0d4c-4de4-909f-e001fc03b66e",
+      "order_id": "eac032c2-89fb-4f52-831c-75645c5bfbc7",
+      "product_id": "4ad2e1d8-2680-4aff-b3d7-0f16933d69e5",
+      "quantity": 3,
+      "price": "52990000.00"
+    },
+    {
+      "id": "7d095916-1ccf-45d2-9bea-0bd05ab22fa5",
+      "order_id": "c0e3b42d-fceb-44c0-935c-5fe8d31599ef",
+      "product_id": "609d5f3f-485d-4b86-b1fb-643ec8344ea1",
+      "quantity": 1,
+      "price": "5990000.00"
+    },
+    {
+      "id": "251c7aba-f78e-47b9-9d39-cb792660aab8",
+      "order_id": "c0e3b42d-fceb-44c0-935c-5fe8d31599ef",
+      "product_id": "7d112ce0-c6c2-4ec1-ba11-a55dd730905e",
+      "quantity": 3,
+      "price": "4990000.00"
+    },
+    {
+      "id": "a102ad72-ab3c-4a63-8105-f22f554707d0",
+      "order_id": "c0e3b42d-fceb-44c0-935c-5fe8d31599ef",
+      "product_id": "2c74fafc-f3e9-403d-8a5d-f9f39e0f3151",
+      "quantity": 2,
+      "price": "27990000.00"
+    },
+    {
+      "id": "6426eca3-7f51-4a1a-90d5-96cf6de866dc",
+      "order_id": "c0e3b42d-fceb-44c0-935c-5fe8d31599ef",
+      "product_id": "d646675c-1c5e-4f0e-9ac0-8f4ece45d411",
+      "quantity": 3,
+      "price": "49990000.00"
+    },
+    {
+      "id": "6a80ceeb-fe7d-4725-881f-6d8ab530d521",
+      "order_id": "ae309cc7-5253-4133-8f42-db66c0a208ab",
+      "product_id": "99761938-b592-446e-acd7-e71cdba906aa",
+      "quantity": 3,
+      "price": "3490000.00"
+    },
+    {
+      "id": "b5adb920-e2eb-4575-9cf6-af620a2a3385",
+      "order_id": "afaa7a1a-18de-4841-ae0b-108484bb272b",
+      "product_id": "e9cfda55-f861-4205-92e1-b54018a30804",
+      "quantity": 2,
+      "price": "31990000.00"
+    },
+    {
+      "id": "be4ce1a1-8477-471b-97e5-0a31ad8c2da4",
+      "order_id": "afaa7a1a-18de-4841-ae0b-108484bb272b",
+      "product_id": "06b80098-8bd3-42b2-b6bc-1fa6291531a8",
+      "quantity": 2,
+      "price": "45990000.00"
+    },
+    {
+      "id": "fcb00c52-bff4-4f22-97fb-3de2adb97e15",
+      "order_id": "afaa7a1a-18de-4841-ae0b-108484bb272b",
+      "product_id": "8b3aeaf4-7a85-48c8-a160-3df64fe29168",
+      "quantity": 2,
+      "price": "65990000.00"
+    },
+    {
+      "id": "225858df-b88c-403f-b1e7-1751ee995b16",
+      "order_id": "30fdc2e4-c7a8-4315-ab9c-e764c55e03d3",
+      "product_id": "27010ab4-4337-4c03-bfda-915935f75145",
+      "quantity": 2,
+      "price": "4990000.00"
+    },
+    {
+      "id": "3438a667-2e4d-4ebc-9218-ac01ca2802f5",
+      "order_id": "30fdc2e4-c7a8-4315-ab9c-e764c55e03d3",
+      "product_id": "d646675c-1c5e-4f0e-9ac0-8f4ece45d411",
+      "quantity": 1,
+      "price": "49990000.00"
+    },
+    {
+      "id": "4a14613e-2e9b-4ee2-92d0-fa0669b63ef6",
+      "order_id": "ad1b4e40-756d-4756-8b53-57084893ec3b",
+      "product_id": "d646675c-1c5e-4f0e-9ac0-8f4ece45d411",
+      "quantity": 3,
+      "price": "49990000.00"
+    },
+    {
+      "id": "5cce005c-402f-4ff5-a1f6-9e8a042e91e4",
+      "order_id": "a928e99d-9007-48b3-aaba-cf4807404c44",
+      "product_id": "e9cfda55-f861-4205-92e1-b54018a30804",
+      "quantity": 2,
+      "price": "31990000.00"
+    },
+    {
+      "id": "d28d98bc-5197-4265-a380-a326d345869a",
+      "order_id": "a928e99d-9007-48b3-aaba-cf4807404c44",
+      "product_id": "4e0656fa-547c-472b-8cbc-b8bc9cdef0e3",
+      "quantity": 1,
+      "price": "42990000.00"
+    },
+    {
+      "id": "3f81b5e8-d1ab-492c-9eaf-f261f61a3e37",
+      "order_id": "1aa4854d-b8e1-4a8a-97d9-6fe5a4d38183",
+      "product_id": "e9cfda55-f861-4205-92e1-b54018a30804",
+      "quantity": 2,
+      "price": "31990000.00"
+    },
+    {
+      "id": "5e0f7030-5215-4a6f-80c4-251e7bebc738",
+      "order_id": "1aa4854d-b8e1-4a8a-97d9-6fe5a4d38183",
+      "product_id": "8b3aeaf4-7a85-48c8-a160-3df64fe29168",
+      "quantity": 3,
+      "price": "65990000.00"
+    },
+    {
+      "id": "e2f3c63b-1290-42c8-9a19-93bfee4515d9",
+      "order_id": "1aa4854d-b8e1-4a8a-97d9-6fe5a4d38183",
+      "product_id": "2c74fafc-f3e9-403d-8a5d-f9f39e0f3151",
+      "quantity": 3,
+      "price": "27990000.00"
+    },
+    {
+      "id": "6b6f86cf-ef47-4fce-9625-290fd6ae6df6",
+      "order_id": "ab466ae2-660d-41ac-89b3-6a9e9c586928",
+      "product_id": "15345b50-9cbc-4ebf-b287-bc59d4d5f483",
+      "quantity": 3,
+      "price": "4590000.00"
+    },
+    {
+      "id": "3b5705f4-6729-4477-807f-ef5446f4660c",
+      "order_id": "ab466ae2-660d-41ac-89b3-6a9e9c586928",
+      "product_id": "2c74fafc-f3e9-403d-8a5d-f9f39e0f3151",
+      "quantity": 2,
+      "price": "27990000.00"
+    },
+    {
+      "id": "f54b68dc-9596-457d-9c31-94b0339d4e02",
+      "order_id": "cbfd8985-c0cf-4c40-9442-a5dcbb3fae5d",
+      "product_id": "67d62a34-7bbc-428e-8b83-df6ad4c22740",
+      "quantity": 2,
+      "price": "29990000.00"
+    },
+    {
+      "id": "7ae561cc-4175-49c6-b329-d0a298ab15c4",
+      "order_id": "c5ba0ac2-171f-44cd-bb0a-c0533b0fd082",
+      "product_id": "22f95604-57ef-48e6-b08a-c8c285d95069",
+      "quantity": 3,
+      "price": "7990000.00"
+    },
+    {
+      "id": "c64bc88d-f636-4d3e-9849-a1bb60516073",
+      "order_id": "c5ba0ac2-171f-44cd-bb0a-c0533b0fd082",
+      "product_id": "fe79b57d-3d15-4058-b20f-5d455d98355b",
+      "quantity": 2,
+      "price": "3290000.00"
+    },
+    {
+      "id": "f305a9e3-78b6-4efd-9e65-4f4236178bbb",
+      "order_id": "c5ba0ac2-171f-44cd-bb0a-c0533b0fd082",
+      "product_id": "7d112ce0-c6c2-4ec1-ba11-a55dd730905e",
+      "quantity": 2,
+      "price": "4990000.00"
+    },
+    {
+      "id": "4a5e1676-18b0-43c3-bb31-8f53e161377c",
+      "order_id": "446d938e-8508-4d92-bc46-3a96734a7989",
+      "product_id": "ac2a0440-f981-40ce-8c09-722e11a8e215",
+      "quantity": 3,
+      "price": "26990000.00"
+    },
+    {
+      "id": "b36d4b13-7c14-4490-97ec-d452ccb2ab0d",
+      "order_id": "75116db0-19a6-46fc-a02b-588c1bcb7221",
+      "product_id": "15345b50-9cbc-4ebf-b287-bc59d4d5f483",
+      "quantity": 1,
+      "price": "4590000.00"
+    },
+    {
+      "id": "b0e8728c-0fc2-49c2-9ad3-be3d20bc9414",
+      "order_id": "75116db0-19a6-46fc-a02b-588c1bcb7221",
+      "product_id": "dcd05c6e-80b8-4258-8eca-a324487ff7bd",
+      "quantity": 1,
+      "price": "25990000.00"
+    },
+    {
+      "id": "a0a587b6-16c6-4d1d-bb04-c103cd4ba7e0",
+      "order_id": "cfca404f-242c-4a89-8068-0718c991f625",
+      "product_id": "99761938-b592-446e-acd7-e71cdba906aa",
+      "quantity": 3,
+      "price": "3490000.00"
+    },
+    {
+      "id": "ff173d74-c1c9-4723-b086-cebc0f126a80",
+      "order_id": "cfca404f-242c-4a89-8068-0718c991f625",
+      "product_id": "67d62a34-7bbc-428e-8b83-df6ad4c22740",
+      "quantity": 3,
+      "price": "29990000.00"
+    },
+    {
+      "id": "3342cedb-445b-4777-90ba-59cda3190602",
+      "order_id": "cfca404f-242c-4a89-8068-0718c991f625",
+      "product_id": "dcd05c6e-80b8-4258-8eca-a324487ff7bd",
+      "quantity": 3,
+      "price": "25990000.00"
+    },
+    {
+      "id": "abb3a0a4-edb5-4d8c-a3e1-29c139025782",
+      "order_id": "cfca404f-242c-4a89-8068-0718c991f625",
+      "product_id": "06b80098-8bd3-42b2-b6bc-1fa6291531a8",
+      "quantity": 2,
+      "price": "45990000.00"
+    },
+    {
+      "id": "9dc83fc7-52d5-4b2a-8ca7-0470e70b83a8",
+      "order_id": "65e1e41f-96bb-4558-bcbf-4137e83a5a27",
+      "product_id": "15345b50-9cbc-4ebf-b287-bc59d4d5f483",
+      "quantity": 1,
+      "price": "4590000.00"
+    },
+    {
+      "id": "3438b852-815c-47af-a1b9-d786619d172e",
+      "order_id": "0b6f8390-6ecb-4391-a892-c434d0cf5985",
+      "product_id": "149c3ce2-be1b-4732-9f4b-c416744e6280",
+      "quantity": 3,
+      "price": "45990000.00"
+    },
+    {
+      "id": "17c44e36-fa37-4fc6-adbb-26c6063c4c0f",
+      "order_id": "0b6f8390-6ecb-4391-a892-c434d0cf5985",
+      "product_id": "8b3aeaf4-7a85-48c8-a160-3df64fe29168",
+      "quantity": 2,
+      "price": "65990000.00"
+    },
+    {
+      "id": "25b3c611-838a-4749-ab0e-99344a65ecac",
+      "order_id": "0b6f8390-6ecb-4391-a892-c434d0cf5985",
+      "product_id": "8a242676-895e-4e62-a3b7-4e371c5c63eb",
+      "quantity": 2,
+      "price": "11990000.00"
+    },
+    {
+      "id": "1a1a9de4-9330-4b11-bb2e-16ef4998da52",
+      "order_id": "0b6f8390-6ecb-4391-a892-c434d0cf5985",
+      "product_id": "e3d3d9dd-c411-4a02-81ba-4101b5823aac",
+      "quantity": 3,
+      "price": "24990000.00"
+    },
+    {
+      "id": "7dd29a68-867d-448a-a78f-af2022dcf531",
+      "order_id": "4ccf9b62-efd4-4f9e-876d-013a671cdf43",
+      "product_id": "e9cfda55-f861-4205-92e1-b54018a30804",
+      "quantity": 3,
+      "price": "31990000.00"
+    },
+    {
+      "id": "36fac9cd-e169-4739-ad5c-bc5fb45f4763",
+      "order_id": "4ccf9b62-efd4-4f9e-876d-013a671cdf43",
+      "product_id": "8b3aeaf4-7a85-48c8-a160-3df64fe29168",
+      "quantity": 1,
+      "price": "65990000.00"
+    },
+    {
+      "id": "43257f34-efba-4b4f-b1e8-209b3efcd7c0",
+      "order_id": "4ccf9b62-efd4-4f9e-876d-013a671cdf43",
+      "product_id": "57df0425-84ec-4b33-b76a-5b676bb090de",
+      "quantity": 3,
+      "price": "32990000.00"
+    },
+    {
+      "id": "445ad121-763d-4403-9d75-927a419ed140",
+      "order_id": "e3a7bf59-3458-4612-afbb-e20cf49319c6",
+      "product_id": "4ad2e1d8-2680-4aff-b3d7-0f16933d69e5",
+      "quantity": 3,
+      "price": "52990000.00"
+    },
+    {
+      "id": "606d06fc-e037-440b-90c5-6f7ab6040a77",
+      "order_id": "0b5e86a9-0b81-47ac-9ef9-32251b44bde9",
+      "product_id": "67d62a34-7bbc-428e-8b83-df6ad4c22740",
+      "quantity": 3,
+      "price": "29990000.00"
+    },
+    {
+      "id": "11737fb1-8b99-4ca5-9754-793e6153974f",
+      "order_id": "2f98a9f5-2845-469b-9c88-9235b4ed4690",
+      "product_id": "4ad2e1d8-2680-4aff-b3d7-0f16933d69e5",
+      "quantity": 1,
+      "price": "52990000.00"
+    },
+    {
+      "id": "b0936d00-1d38-4681-aaca-6ad3461ecf1c",
+      "order_id": "2f98a9f5-2845-469b-9c88-9235b4ed4690",
+      "product_id": "7d112ce0-c6c2-4ec1-ba11-a55dd730905e",
+      "quantity": 2,
+      "price": "4990000.00"
+    },
+    {
+      "id": "aeb20007-eb82-472d-8c89-82994441bb10",
+      "order_id": "2f98a9f5-2845-469b-9c88-9235b4ed4690",
+      "product_id": "fe79b57d-3d15-4058-b20f-5d455d98355b",
+      "quantity": 2,
+      "price": "3290000.00"
+    },
+    {
+      "id": "273a90b7-b413-4496-93e6-111b052f6b76",
+      "order_id": "e4345af7-a7bb-47d3-aafc-3edab2ac79db",
+      "product_id": "8b3aeaf4-7a85-48c8-a160-3df64fe29168",
+      "quantity": 1,
+      "price": "65990000.00"
+    },
+    {
+      "id": "d335fc68-df3d-4778-9039-1c343613c7e8",
+      "order_id": "e4345af7-a7bb-47d3-aafc-3edab2ac79db",
+      "product_id": "ac2a0440-f981-40ce-8c09-722e11a8e215",
+      "quantity": 1,
+      "price": "26990000.00"
+    },
+    {
+      "id": "9bf36ea8-37f6-43a4-add8-5b243507eb7a",
+      "order_id": "da35eaf8-e453-4c64-899a-eb537b805b4b",
+      "product_id": "8a242676-895e-4e62-a3b7-4e371c5c63eb",
+      "quantity": 1,
+      "price": "11990000.00"
+    },
+    {
+      "id": "50160127-3a24-4927-9db9-c1b03d135e19",
+      "order_id": "da35eaf8-e453-4c64-899a-eb537b805b4b",
+      "product_id": "dcd05c6e-80b8-4258-8eca-a324487ff7bd",
+      "quantity": 1,
+      "price": "25990000.00"
+    },
+    {
+      "id": "a7940e72-932e-4d03-8c83-c8b8796d75e6",
+      "order_id": "da35eaf8-e453-4c64-899a-eb537b805b4b",
+      "product_id": "8b3aeaf4-7a85-48c8-a160-3df64fe29168",
+      "quantity": 1,
+      "price": "65990000.00"
+    },
+    {
+      "id": "0a22a22f-ae37-4093-9c86-c983573c1f24",
+      "order_id": "ee5deb8b-d291-4304-ac99-706b0d9e061c",
+      "product_id": "e9cfda55-f861-4205-92e1-b54018a30804",
+      "quantity": 3,
+      "price": "31990000.00"
+    },
+    {
+      "id": "27a8f199-31f4-4512-987f-96e32a31c6e9",
+      "order_id": "ee5deb8b-d291-4304-ac99-706b0d9e061c",
+      "product_id": "22f95604-57ef-48e6-b08a-c8c285d95069",
+      "quantity": 3,
+      "price": "7990000.00"
+    },
+    {
+      "id": "eb124a7a-d03d-404c-bdaa-5ecbf3978ded",
+      "order_id": "ee5deb8b-d291-4304-ac99-706b0d9e061c",
+      "product_id": "27010ab4-4337-4c03-bfda-915935f75145",
+      "quantity": 2,
+      "price": "4990000.00"
+    },
+    {
+      "id": "67c97e9b-279a-4be7-86d8-a4e7264ee4dc",
+      "order_id": "ee5deb8b-d291-4304-ac99-706b0d9e061c",
+      "product_id": "2c74fafc-f3e9-403d-8a5d-f9f39e0f3151",
+      "quantity": 1,
+      "price": "27990000.00"
+    },
+    {
+      "id": "77d3edb1-f5a5-4ebb-8179-318bde5cea0a",
+      "order_id": "d7c7433b-704d-4e9f-8aa5-c817a346fbd9",
+      "product_id": "d646675c-1c5e-4f0e-9ac0-8f4ece45d411",
+      "quantity": 3,
+      "price": "49990000.00"
+    },
+    {
+      "id": "56095160-e662-4be6-84b4-e4dbdd541c92",
+      "order_id": "d7c7433b-704d-4e9f-8aa5-c817a346fbd9",
+      "product_id": "2c74fafc-f3e9-403d-8a5d-f9f39e0f3151",
+      "quantity": 3,
+      "price": "27990000.00"
+    },
+    {
+      "id": "f6b4a238-cf0f-4de5-9c08-53ea59bd99f2",
+      "order_id": "2f144e1b-0876-4858-81d0-3ef997ed16d5",
+      "product_id": "609d5f3f-485d-4b86-b1fb-643ec8344ea1",
+      "quantity": 2,
+      "price": "5990000.00"
+    },
+    {
+      "id": "899766a8-9445-4d08-8519-5f656fdf85b1",
+      "order_id": "2f144e1b-0876-4858-81d0-3ef997ed16d5",
+      "product_id": "06b80098-8bd3-42b2-b6bc-1fa6291531a8",
+      "quantity": 1,
+      "price": "45990000.00"
+    },
+    {
+      "id": "fe6fd72d-347a-4953-847e-7c18bc613c38",
+      "order_id": "2f144e1b-0876-4858-81d0-3ef997ed16d5",
+      "product_id": "dcd05c6e-80b8-4258-8eca-a324487ff7bd",
+      "quantity": 3,
+      "price": "25990000.00"
+    },
+    {
+      "id": "f9c21213-e756-4233-a7ab-ddfadffde922",
+      "order_id": "bbf3daed-ef9f-450f-aaff-5e1ee3bbac7a",
+      "product_id": "4ad2e1d8-2680-4aff-b3d7-0f16933d69e5",
+      "quantity": 3,
+      "price": "52990000.00"
+    },
+    {
+      "id": "bdb412f0-51b2-42fb-838e-6480ec9b8f72",
+      "order_id": "bbf3daed-ef9f-450f-aaff-5e1ee3bbac7a",
+      "product_id": "67d62a34-7bbc-428e-8b83-df6ad4c22740",
+      "quantity": 2,
+      "price": "29990000.00"
+    },
+    {
+      "id": "984520ed-3811-4991-b2ba-296492b5abee",
+      "order_id": "bbf3daed-ef9f-450f-aaff-5e1ee3bbac7a",
+      "product_id": "dcd05c6e-80b8-4258-8eca-a324487ff7bd",
+      "quantity": 2,
+      "price": "25990000.00"
+    },
+    {
+      "id": "c0c89b0f-2b36-46f1-8f9d-f8db3d388b34",
+      "order_id": "bbf3daed-ef9f-450f-aaff-5e1ee3bbac7a",
+      "product_id": "e9cfda55-f861-4205-92e1-b54018a30804",
+      "quantity": 1,
+      "price": "31990000.00"
+    },
+    {
+      "id": "795fb303-d68d-434d-aea3-4bc1f1d9b718",
+      "order_id": "47d39d2f-1589-4ac5-92db-76254f9c628b",
+      "product_id": "4e0656fa-547c-472b-8cbc-b8bc9cdef0e3",
+      "quantity": 2,
+      "price": "42990000.00"
+    },
+    {
+      "id": "8c1aa75e-1967-4654-81d9-bf187abab6b3",
+      "order_id": "47d39d2f-1589-4ac5-92db-76254f9c628b",
+      "product_id": "67d62a34-7bbc-428e-8b83-df6ad4c22740",
+      "quantity": 1,
+      "price": "29990000.00"
+    },
+    {
+      "id": "c001bf18-48d3-47e7-a5ed-eaf0aa370c90",
+      "order_id": "47d39d2f-1589-4ac5-92db-76254f9c628b",
+      "product_id": "2d44691c-4c6a-40e3-b7e8-88464563252f",
+      "quantity": 2,
+      "price": "28990000.00"
+    },
+    {
+      "id": "f44ab76d-b62b-40a6-ba13-506c88f7795d",
+      "order_id": "47d39d2f-1589-4ac5-92db-76254f9c628b",
+      "product_id": "57df0425-84ec-4b33-b76a-5b676bb090de",
+      "quantity": 2,
+      "price": "32990000.00"
+    },
+    {
+      "id": "e3276a7a-ba34-4a8c-89d1-ce2c55247e74",
+      "order_id": "ffd2acb9-9652-4d40-968b-065d99bc6f5e",
+      "product_id": "15345b50-9cbc-4ebf-b287-bc59d4d5f483",
+      "quantity": 1,
+      "price": "4590000.00"
+    },
+    {
+      "id": "84002455-ffce-4ec0-a6cf-d86998613890",
+      "order_id": "3f4fb6be-1f2c-4f8c-857d-85b0f369c757",
+      "product_id": "2c74fafc-f3e9-403d-8a5d-f9f39e0f3151",
+      "quantity": 2,
+      "price": "27990000.00"
+    },
+    {
+      "id": "d28e5ef9-514d-4594-998a-ea6684b31bc6",
+      "order_id": "5f5256fa-e4a8-4d83-81c4-c21a8c5c706b",
+      "product_id": "fe79b57d-3d15-4058-b20f-5d455d98355b",
+      "quantity": 2,
+      "price": "3290000.00"
+    },
+    {
+      "id": "51ad17e4-e07f-4142-a605-6e91d21abd60",
+      "order_id": "5f5256fa-e4a8-4d83-81c4-c21a8c5c706b",
+      "product_id": "4e0656fa-547c-472b-8cbc-b8bc9cdef0e3",
+      "quantity": 3,
+      "price": "42990000.00"
+    },
+    {
+      "id": "628a38e2-e244-46c6-83c9-97fe42583246",
+      "order_id": "5f5256fa-e4a8-4d83-81c4-c21a8c5c706b",
+      "product_id": "d646675c-1c5e-4f0e-9ac0-8f4ece45d411",
+      "quantity": 2,
+      "price": "49990000.00"
+    },
+    {
+      "id": "957d9b2a-6cfd-4256-ac47-6b86297cd15e",
+      "order_id": "2509c631-089d-4eed-be26-229334e39b26",
+      "product_id": "609d5f3f-485d-4b86-b1fb-643ec8344ea1",
+      "quantity": 3,
+      "price": "5990000.00"
+    },
+    {
+      "id": "8018dcc1-1776-497c-9a83-27203697c2b1",
+      "order_id": "2509c631-089d-4eed-be26-229334e39b26",
+      "product_id": "06b80098-8bd3-42b2-b6bc-1fa6291531a8",
+      "quantity": 1,
+      "price": "45990000.00"
+    },
+    {
+      "id": "a565e78d-b758-486a-ac88-bb16d1bc685e",
+      "order_id": "716899e3-e0da-41bc-8a71-d88d1d4bc1a9",
+      "product_id": "f692d43b-32af-4d00-a9c8-8e14af7611b0",
+      "quantity": 3,
+      "price": "15990000.00"
+    },
+    {
+      "id": "d8eb4245-12cf-4b29-8e6b-cf1280ef33b4",
+      "order_id": "716899e3-e0da-41bc-8a71-d88d1d4bc1a9",
+      "product_id": "67d62a34-7bbc-428e-8b83-df6ad4c22740",
+      "quantity": 3,
+      "price": "29990000.00"
+    },
+    {
+      "id": "6259a03e-2795-433c-8771-b9258a2543fa",
+      "order_id": "716899e3-e0da-41bc-8a71-d88d1d4bc1a9",
+      "product_id": "609d5f3f-485d-4b86-b1fb-643ec8344ea1",
+      "quantity": 3,
+      "price": "5990000.00"
+    },
+    {
+      "id": "7343a4f8-2272-423e-a9b0-64c59d05b54f",
+      "order_id": "716899e3-e0da-41bc-8a71-d88d1d4bc1a9",
+      "product_id": "8b3aeaf4-7a85-48c8-a160-3df64fe29168",
+      "quantity": 3,
+      "price": "65990000.00"
+    },
+    {
+      "id": "ee290853-1c8d-4533-a952-97b98f75cf09",
+      "order_id": "839ac094-8222-47ba-8509-4abcc681ce34",
+      "product_id": "4e0656fa-547c-472b-8cbc-b8bc9cdef0e3",
+      "quantity": 1,
+      "price": "42990000.00"
+    },
+    {
+      "id": "101dd000-2224-47a7-9b82-c366357a50dd",
+      "order_id": "839ac094-8222-47ba-8509-4abcc681ce34",
+      "product_id": "15345b50-9cbc-4ebf-b287-bc59d4d5f483",
+      "quantity": 2,
+      "price": "4590000.00"
+    },
+    {
+      "id": "f711b15f-9140-4195-8c25-de9b0f15c867",
+      "order_id": "839ac094-8222-47ba-8509-4abcc681ce34",
+      "product_id": "06b80098-8bd3-42b2-b6bc-1fa6291531a8",
+      "quantity": 2,
+      "price": "45990000.00"
+    },
+    {
+      "id": "90132286-b61d-453f-8029-79d461c3f9f2",
+      "order_id": "c4ad7a37-4e08-4993-ac2c-1e90c6092876",
+      "product_id": "67d62a34-7bbc-428e-8b83-df6ad4c22740",
+      "quantity": 1,
+      "price": "29990000.00"
+    },
+    {
+      "id": "68976ec5-c51d-4a7a-9467-c85f322dfdc9",
+      "order_id": "c4ad7a37-4e08-4993-ac2c-1e90c6092876",
+      "product_id": "f692d43b-32af-4d00-a9c8-8e14af7611b0",
+      "quantity": 3,
+      "price": "15990000.00"
+    },
+    {
+      "id": "d4285963-e323-403a-b6a0-8de29c79fd3a",
+      "order_id": "c4ad7a37-4e08-4993-ac2c-1e90c6092876",
+      "product_id": "57df0425-84ec-4b33-b76a-5b676bb090de",
+      "quantity": 3,
+      "price": "32990000.00"
+    },
+    {
+      "id": "d885eda3-e1fd-423f-8a89-2b68692c6fb1",
+      "order_id": "c4ad7a37-4e08-4993-ac2c-1e90c6092876",
+      "product_id": "8a242676-895e-4e62-a3b7-4e371c5c63eb",
+      "quantity": 3,
+      "price": "11990000.00"
+    },
+    {
+      "id": "f7924386-cd17-4436-a23e-c59e95bced24",
+      "order_id": "81c4eba4-1fe4-4cf2-87ac-88612dd99c10",
+      "product_id": "4ad2e1d8-2680-4aff-b3d7-0f16933d69e5",
+      "quantity": 2,
+      "price": "52990000.00"
+    },
+    {
+      "id": "0b57e49c-67fb-4cef-8215-e4099c1d12e5",
+      "order_id": "81c4eba4-1fe4-4cf2-87ac-88612dd99c10",
+      "product_id": "8b3aeaf4-7a85-48c8-a160-3df64fe29168",
+      "quantity": 2,
+      "price": "65990000.00"
+    },
+    {
+      "id": "4c69a5d0-2273-4b6f-b1a2-3891d0bad733",
+      "order_id": "81c4eba4-1fe4-4cf2-87ac-88612dd99c10",
+      "product_id": "fe79b57d-3d15-4058-b20f-5d455d98355b",
+      "quantity": 3,
+      "price": "3290000.00"
+    },
+    {
+      "id": "85e85399-3895-4b20-a445-a349cea82f8d",
+      "order_id": "81c4eba4-1fe4-4cf2-87ac-88612dd99c10",
+      "product_id": "2c74fafc-f3e9-403d-8a5d-f9f39e0f3151",
+      "quantity": 3,
+      "price": "27990000.00"
+    },
+    {
+      "id": "1f617f4c-9013-4180-9ab5-134373681065",
+      "order_id": "da1cd3ea-b5d7-4f10-b1e3-3c9fe05693fc",
+      "product_id": "fe79b57d-3d15-4058-b20f-5d455d98355b",
+      "quantity": 1,
+      "price": "3290000.00"
+    },
+    {
+      "id": "26309e85-1709-446d-aeae-69025c995f2a",
+      "order_id": "da1cd3ea-b5d7-4f10-b1e3-3c9fe05693fc",
+      "product_id": "4e0656fa-547c-472b-8cbc-b8bc9cdef0e3",
+      "quantity": 3,
+      "price": "42990000.00"
+    },
+    {
+      "id": "9ae60576-a81a-4203-b697-bc04ee155c9a",
+      "order_id": "da1cd3ea-b5d7-4f10-b1e3-3c9fe05693fc",
+      "product_id": "d646675c-1c5e-4f0e-9ac0-8f4ece45d411",
+      "quantity": 1,
+      "price": "49990000.00"
+    },
+    {
+      "id": "4063b9f2-aa41-4f85-813e-f530c16f0be4",
+      "order_id": "da1cd3ea-b5d7-4f10-b1e3-3c9fe05693fc",
+      "product_id": "149c3ce2-be1b-4732-9f4b-c416744e6280",
+      "quantity": 3,
+      "price": "45990000.00"
+    },
+    {
+      "id": "b9aa2d92-6e4f-4d89-837a-6b27137c7ee8",
+      "order_id": "61002da2-396e-4b52-8091-0932333e3cdf",
+      "product_id": "fe79b57d-3d15-4058-b20f-5d455d98355b",
+      "quantity": 1,
+      "price": "3290000.00"
+    },
+    {
+      "id": "e22f1ac2-efd6-42a2-8c59-871dd1ac833d",
+      "order_id": "61002da2-396e-4b52-8091-0932333e3cdf",
+      "product_id": "8a242676-895e-4e62-a3b7-4e371c5c63eb",
+      "quantity": 2,
+      "price": "11990000.00"
+    },
+    {
+      "id": "68751220-3415-42c7-b710-ab5fca1ff901",
+      "order_id": "61002da2-396e-4b52-8091-0932333e3cdf",
+      "product_id": "7d112ce0-c6c2-4ec1-ba11-a55dd730905e",
+      "quantity": 2,
+      "price": "4990000.00"
+    },
+    {
+      "id": "76a77783-e503-4d36-a7d5-ec064e724e18",
+      "order_id": "61002da2-396e-4b52-8091-0932333e3cdf",
+      "product_id": "f692d43b-32af-4d00-a9c8-8e14af7611b0",
+      "quantity": 1,
+      "price": "15990000.00"
+    },
+    {
+      "id": "b2291781-6085-47e9-8f21-88bceb405bd7",
+      "order_id": "061e4069-3b6f-4965-8d15-e90ebe2bf38b",
+      "product_id": "609d5f3f-485d-4b86-b1fb-643ec8344ea1",
+      "quantity": 1,
+      "price": "5990000.00"
+    },
+    {
+      "id": "080cd559-e868-4413-9d13-b5bb5684a5a1",
+      "order_id": "061e4069-3b6f-4965-8d15-e90ebe2bf38b",
+      "product_id": "99761938-b592-446e-acd7-e71cdba906aa",
+      "quantity": 3,
+      "price": "3490000.00"
+    },
+    {
+      "id": "df7ee904-08fd-494f-b30a-95c33aa5f911",
+      "order_id": "061e4069-3b6f-4965-8d15-e90ebe2bf38b",
+      "product_id": "e9cfda55-f861-4205-92e1-b54018a30804",
+      "quantity": 2,
+      "price": "31990000.00"
+    },
+    {
+      "id": "4bd299ec-56dc-45bd-a486-3c1029f97578",
+      "order_id": "67f1977b-0eeb-453a-9498-5d96ce44ff78",
+      "product_id": "27010ab4-4337-4c03-bfda-915935f75145",
+      "quantity": 1,
+      "price": "4990000.00"
+    },
+    {
+      "id": "db0c8978-6667-4710-849b-76629e205e94",
+      "order_id": "67f1977b-0eeb-453a-9498-5d96ce44ff78",
+      "product_id": "a8c3e870-99a4-4e93-aeb6-4d175c793c2b",
+      "quantity": 1,
+      "price": "35990000.00"
+    },
+    {
+      "id": "d289711e-d106-4f01-9b9f-f48e4393ef57",
+      "order_id": "67f1977b-0eeb-453a-9498-5d96ce44ff78",
+      "product_id": "4ad2e1d8-2680-4aff-b3d7-0f16933d69e5",
+      "quantity": 2,
+      "price": "52990000.00"
+    },
+    {
+      "id": "a1e8dfa0-5fbd-4099-a87e-9e84369903ac",
+      "order_id": "3b91bddc-549e-4a01-bb50-2664ac827dfe",
+      "product_id": "a8c3e870-99a4-4e93-aeb6-4d175c793c2b",
+      "quantity": 2,
+      "price": "35990000.00"
+    },
+    {
+      "id": "0f881202-ff24-49e0-bfd0-4d6654d259fd",
+      "order_id": "be128280-a98a-4465-9755-6344450f94de",
+      "product_id": "2c74fafc-f3e9-403d-8a5d-f9f39e0f3151",
+      "quantity": 1,
+      "price": "27990000.00"
+    },
+    {
+      "id": "7b01f444-2089-4705-a2eb-e091f7141ef3",
+      "order_id": "be128280-a98a-4465-9755-6344450f94de",
+      "product_id": "149c3ce2-be1b-4732-9f4b-c416744e6280",
+      "quantity": 2,
+      "price": "45990000.00"
+    },
+    {
+      "id": "a9d41047-a14d-4bad-b0b2-f10a2931b419",
+      "order_id": "be128280-a98a-4465-9755-6344450f94de",
+      "product_id": "4ad2e1d8-2680-4aff-b3d7-0f16933d69e5",
+      "quantity": 3,
+      "price": "52990000.00"
+    },
+    {
+      "id": "c4ab6dd7-fd77-4dd2-8897-6909782d76bd",
+      "order_id": "c6223472-235c-4689-913f-1c9d0d666821",
+      "product_id": "dcd05c6e-80b8-4258-8eca-a324487ff7bd",
+      "quantity": 1,
+      "price": "25990000.00"
+    },
+    {
+      "id": "b6f4f151-4d2c-47af-91ba-85fd9136bd2d",
+      "order_id": "c6223472-235c-4689-913f-1c9d0d666821",
+      "product_id": "a8c3e870-99a4-4e93-aeb6-4d175c793c2b",
+      "quantity": 2,
+      "price": "35990000.00"
+    },
+    {
+      "id": "b7994223-8d50-4912-bf39-722d688aebca",
+      "order_id": "c6223472-235c-4689-913f-1c9d0d666821",
+      "product_id": "d646675c-1c5e-4f0e-9ac0-8f4ece45d411",
+      "quantity": 3,
+      "price": "49990000.00"
+    },
+    {
+      "id": "d671220d-be77-427a-8166-bcd7a0f6e822",
+      "order_id": "c6223472-235c-4689-913f-1c9d0d666821",
+      "product_id": "149c3ce2-be1b-4732-9f4b-c416744e6280",
+      "quantity": 2,
+      "price": "45990000.00"
+    },
+    {
+      "id": "82294e4a-35a1-41f7-a065-436e4bdc0f94",
+      "order_id": "90d7c81f-d740-489d-bcf8-e33c9029224a",
+      "product_id": "e9cfda55-f861-4205-92e1-b54018a30804",
+      "quantity": 1,
+      "price": "31990000.00"
+    },
+    {
+      "id": "d0b4c764-d3dc-4661-8614-54ee2fa0a0a8",
+      "order_id": "c47b6ae1-e949-4a52-9b46-bed3b17f4418",
+      "product_id": "22f95604-57ef-48e6-b08a-c8c285d95069",
+      "quantity": 1,
+      "price": "7990000.00"
+    },
+    {
+      "id": "809cbaac-d0ce-4f94-b407-935f87caba8f",
+      "order_id": "c47b6ae1-e949-4a52-9b46-bed3b17f4418",
+      "product_id": "8a242676-895e-4e62-a3b7-4e371c5c63eb",
+      "quantity": 1,
+      "price": "11990000.00"
+    },
+    {
+      "id": "05f52717-c4c7-4913-9a9e-d08e1a967830",
+      "order_id": "198fd9c3-19da-43ae-bbda-27201d49c334",
+      "product_id": "15345b50-9cbc-4ebf-b287-bc59d4d5f483",
+      "quantity": 1,
+      "price": "4590000.00"
+    },
+    {
+      "id": "b28a93a7-f01a-43e6-9667-f7fe61e99ffb",
+      "order_id": "6698f58b-d15c-44cc-a2ad-ccb436e94f09",
+      "product_id": "15345b50-9cbc-4ebf-b287-bc59d4d5f483",
+      "quantity": 1,
+      "price": "4590000.00"
+    },
+    {
+      "id": "38bb4086-f082-4893-aa4e-2690821f7e5f",
+      "order_id": "a16c39aa-e985-4f5a-8885-7fd3bee6a01d",
+      "product_id": "15345b50-9cbc-4ebf-b287-bc59d4d5f483",
+      "quantity": 1,
+      "price": "4590000.00"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "19cf018c-673a-4f2d-bc4a-6ed0f07e97aa",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "product_id": "67d62a34-7bbc-428e-8b83-df6ad4c22740",
+      "rating": 5,
+      "comment": "Sản phẩm tuyệt vời! Camera chụp đẹp, pin trâu, hiệu năng mượt mà. Rất hài lòng với quyết định mua hàng.",
+      "created_at": "2025-12-31T00:25:21.327Z"
+    },
+    {
+      "id": "2db6013d-f62b-4bf7-be2b-e50e18c12ddc",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "product_id": "67d62a34-7bbc-428e-8b83-df6ad4c22740",
+      "rating": 5,
+      "comment": "Đóng gói cẩn thận, giao hàng nhanh. iPhone xịn như mong đợi!",
+      "created_at": "2025-12-31T00:25:21.330Z"
+    },
+    {
+      "id": "47f58d6f-37c4-4e9a-a619-05fe742e8dcf",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "product_id": "67d62a34-7bbc-428e-8b83-df6ad4c22740",
+      "rating": 4,
+      "comment": "Máy đẹp, chỉ tiếc là giá hơi cao. Nhưng chất lượng Apple thì không chê vào đâu được.",
+      "created_at": "2025-12-31T00:25:21.331Z"
+    },
+    {
+      "id": "4b1deac5-7c89-4d20-a3a0-01b59f42b7cd",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "product_id": "e9cfda55-f861-4205-92e1-b54018a30804",
+      "rating": 5,
+      "comment": "Galaxy AI quá đỉnh! Tính năng Circle to Search rất tiện, camera 200MP chụp zoom xa vẫn nét.",
+      "created_at": "2025-12-31T00:25:21.331Z"
+    },
+    {
+      "id": "bb955586-e124-4c63-98d2-b0f73e4b702d",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "product_id": "e9cfda55-f861-4205-92e1-b54018a30804",
+      "rating": 4,
+      "comment": "S Pen tiện lợi cho công việc. Màn hình sáng, đẹp. Chỉ hơi nặng một chút.",
+      "created_at": "2025-12-31T00:25:21.332Z"
+    },
+    {
+      "id": "03fd39bd-15ec-403c-9696-40ebdb7cf104",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "product_id": "d646675c-1c5e-4f0e-9ac0-8f4ece45d411",
+      "rating": 5,
+      "comment": "Render video 4K mượt như bơ, pin dùng cả ngày không lo. Đáng đồng tiền bát gạo!",
+      "created_at": "2025-12-31T00:25:21.332Z"
+    },
+    {
+      "id": "c33b2144-cdee-4f13-ab47-cd30c0d28a97",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "product_id": "d646675c-1c5e-4f0e-9ac0-8f4ece45d411",
+      "rating": 5,
+      "comment": "Làm việc với Xcode, Final Cut Pro không hề giật lag. Màn hình XDR đẹp xuất sắc.",
+      "created_at": "2025-12-31T00:25:21.333Z"
+    },
+    {
+      "id": "e96e3e3c-e452-49f6-ae70-11061b83043d",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "product_id": "a8c3e870-99a4-4e93-aeb6-4d175c793c2b",
+      "rating": 5,
+      "comment": "Chơi game 4K max setting vẫn mượt. Build đẹp, RGB lung linh. T1next support nhiệt tình!",
+      "created_at": "2025-12-31T00:25:21.333Z"
+    },
+    {
+      "id": "670bdcf2-d59e-4627-ac2f-66f4dc88ef10",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "product_id": "a8c3e870-99a4-4e93-aeb6-4d175c793c2b",
+      "rating": 5,
+      "comment": "Giá hợp lý cho cấu hình này. Đóng gói kỹ, ship về không trầy xước gì.",
+      "created_at": "2025-12-31T00:25:21.334Z"
+    },
+    {
+      "id": "c3ea42f8-caaf-4e6c-90c4-a6386c7585ab",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "product_id": "609d5f3f-485d-4b86-b1fb-643ec8344ea1",
+      "rating": 5,
+      "comment": "Chống ồn tốt, âm thanh hay. USB-C tiện hơn Lightning nhiều!",
+      "created_at": "2025-12-31T00:25:21.334Z"
+    },
+    {
+      "id": "82f3b759-308f-4e32-b668-752b65a980e7",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "product_id": "22f95604-57ef-48e6-b08a-c8c285d95069",
+      "rating": 5,
+      "comment": "Tai nghe chống ồn tốt nhất mình từng dùng. Đeo cả ngày không đau tai.",
+      "created_at": "2025-12-31T00:25:21.334Z"
+    },
+    {
+      "id": "a5d76d54-e375-4288-81da-19edd1b086a6",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "product_id": "dcd05c6e-80b8-4258-8eca-a324487ff7bd",
+      "rating": 5,
+      "comment": "Mỏng nhẹ đáng kinh ngạc! Màn hình OLED đẹp, M4 mạnh mẽ cho mọi tác vụ.",
+      "created_at": "2025-12-31T00:25:21.335Z"
+    },
+    {
+      "id": "1cbcc537-0c83-44b4-b230-dd758a1f9521",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "product_id": "f692d43b-32af-4d00-a9c8-8e14af7611b0",
+      "rating": 4,
+      "comment": "Màn hình đẹp, màu sắc chuẩn. Chơi game PS5 4K 120fps ngon lành.",
+      "created_at": "2025-12-31T00:25:21.336Z"
+    },
+    {
+      "id": "13d8cc87-c119-4801-b6fe-70c675196b9c",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "product_id": "8a242676-895e-4e62-a3b7-4e371c5c63eb",
+      "rating": 5,
+      "comment": "Double Tap rất tiện khi tay bận. Theo dõi sức khỏe chính xác.",
+      "created_at": "2025-12-31T00:25:21.337Z"
+    },
+    {
+      "id": "37c40fe0-d816-4383-9784-6008a4887a37",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "product_id": "4ad2e1d8-2680-4aff-b3d7-0f16933d69e5",
+      "rating": 5,
+      "comment": "Laptop gaming đỉnh cao! Chơi mọi game AAA max setting, tản nhiệt tốt.",
+      "created_at": "2025-12-31T00:25:21.338Z"
+    },
+    {
+      "id": "3f139811-db4b-4d6a-aafe-74859004d6c3",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "product_id": "fe79b57d-3d15-4058-b20f-5d455d98355b",
+      "rating": 5,
+      "comment": "Nhẹ như không cầm gì! Aim headshot dễ hơn hẳn, sensor cực kỳ chính xác.",
+      "created_at": "2025-12-31T00:25:21.338Z"
+    },
+    {
+      "id": "278ca1e8-cf6d-43a3-9c78-c0f07998d497",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "product_id": "15345b50-9cbc-4ebf-b287-bc59d4d5f483",
+      "rating": 5,
+      "comment": "Bàn phím custom chất lượng cao, gõ đã tay. Kết nối 3 mode rất tiện.",
+      "created_at": "2025-12-31T00:25:21.339Z"
+    },
+    {
+      "id": "a09db27f-e95c-4526-84ae-e6475c22619f",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "product_id": "7d112ce0-c6c2-4ec1-ba11-a55dd730905e",
+      "rating": 3,
+      "comment": "Đã mua lần 2, vẫn rất ưng",
+      "created_at": "2025-10-05T16:19:02.727Z"
+    },
+    {
+      "id": "bbbd6246-d497-4704-bc16-f056cd970087",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "product_id": "4e0656fa-547c-472b-8cbc-b8bc9cdef0e3",
+      "rating": 5,
+      "comment": "Giao hàng hơi chậm nhưng hàng OK",
+      "created_at": "2025-12-30T13:21:09.456Z"
+    },
+    {
+      "id": "cc56f9ac-da4a-4e15-88f7-79763b17ebcc",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "product_id": "dcd05c6e-80b8-4258-8eca-a324487ff7bd",
+      "rating": 5,
+      "comment": "Hàng chính hãng, yên tâm",
+      "created_at": "2025-12-12T02:35:21.624Z"
+    },
+    {
+      "id": "f1b074c7-3e52-4cd3-b70b-fe7e6279c99e",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "product_id": "2c74fafc-f3e9-403d-8a5d-f9f39e0f3151",
+      "rating": 5,
+      "comment": "Giao hàng hơi chậm nhưng hàng OK",
+      "created_at": "2025-10-29T04:29:19.888Z"
+    },
+    {
+      "id": "845251c9-448f-493f-b533-2250800c682d",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "product_id": "57df0425-84ec-4b33-b76a-5b676bb090de",
+      "rating": 5,
+      "comment": "Đã mua lần 2, vẫn rất ưng",
+      "created_at": "2025-11-14T05:33:55.234Z"
+    },
+    {
+      "id": "1aaa974f-2c61-4eb1-b207-8512b96434fc",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "product_id": "4ad2e1d8-2680-4aff-b3d7-0f16933d69e5",
+      "rating": 5,
+      "comment": "Sản phẩm đúng mô tả, recommend!",
+      "created_at": "2025-12-01T17:43:11.882Z"
+    },
+    {
+      "id": "5897efd9-da34-4706-834d-c1f60f6b1ed1",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "product_id": "8b3aeaf4-7a85-48c8-a160-3df64fe29168",
+      "rating": 3,
+      "comment": "Giao hàng hơi chậm nhưng hàng OK",
+      "created_at": "2025-12-01T08:34:04.287Z"
+    },
+    {
+      "id": "d8ed86c6-8505-4a92-8c08-81194c4897cd",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "product_id": "dcd05c6e-80b8-4258-8eca-a324487ff7bd",
+      "rating": 3,
+      "comment": "Giao hàng hơi chậm nhưng hàng OK",
+      "created_at": "2025-10-07T11:43:49.131Z"
+    },
+    {
+      "id": "a45a75d0-da98-45a0-963f-94bcd697721b",
+      "user_id": "de7721c0-f097-43f8-b70f-3300b2fada9b",
+      "product_id": "06b80098-8bd3-42b2-b6bc-1fa6291531a8",
+      "rating": 3,
+      "comment": "Đã mua lần 2, vẫn rất ưng",
+      "created_at": "2025-10-09T21:47:30.003Z"
+    },
+    {
+      "id": "6350ead2-8c3f-4faf-aebf-d73137b9c50e",
+      "user_id": "117c36db-f29b-416c-823d-48dfca5344c7",
+      "product_id": "2c74fafc-f3e9-403d-8a5d-f9f39e0f3151",
+      "rating": 5,
+      "comment": "Sản phẩm đúng mô tả, recommend!",
+      "created_at": "2025-10-16T02:07:09.785Z"
+    },
+    {
+      "id": "94adc271-d42e-453a-9379-e8a255557be1",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "product_id": "4ad2e1d8-2680-4aff-b3d7-0f16933d69e5",
+      "rating": 5,
+      "comment": "Giao hàng hơi chậm nhưng hàng OK",
+      "created_at": "2025-10-21T14:58:41.818Z"
+    },
+    {
+      "id": "5e9fc5ec-6697-49c6-9412-b255de3102f6",
+      "user_id": "e71b2744-e314-497b-8ce4-693540395e68",
+      "product_id": "8a242676-895e-4e62-a3b7-4e371c5c63eb",
+      "rating": 4,
+      "comment": "Đã mua lần 2, vẫn rất ưng",
+      "created_at": "2025-11-04T02:24:37.336Z"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "df004bdf-ee27-4205-87c1-14307d030df0",
+      "code": "SALE20",
+      "name": "Flash Sale 20%",
+      "description": "Giảm 20% tất cả sản phẩm - Chỉ trong tuần này!",
+      "type": "percentage",
+      "value": "20.00",
+      "min_order_value": "1000000.00",
+      "max_discount": "500000.00",
+      "usage_limit": 500,
+      "used_count": 234,
+      "start_date": "2025-12-31T16:45:51.095Z",
+      "end_date": "2026-01-07T16:45:51.095Z",
+      "is_active": true,
+      "created_at": "2025-12-31T16:45:51.250Z",
+      "updated_at": "2025-12-31T16:45:51.250Z"
+    },
+    {
+      "id": "5614fff7-5469-414d-a0a9-9aee16c15c08",
+      "code": "FREESHIP",
+      "name": "Miễn phí vận chuyển",
+      "description": "Giảm 50.000đ phí ship cho đơn hàng từ 300.000đ",
+      "type": "fixed",
+      "value": "50000.00",
+      "min_order_value": "300000.00",
+      "max_discount": null,
+      "usage_limit": null,
+      "used_count": 1205,
+      "start_date": "2024-01-01T00:00:00.000Z",
+      "end_date": null,
+      "is_active": true,
+      "created_at": "2025-12-31T16:45:51.251Z",
+      "updated_at": "2025-12-31T16:45:51.251Z"
+    },
+    {
+      "id": "cf6991fe-5300-4b3c-bfc1-e06f5b409268",
+      "code": "NEWYEAR2025",
+      "name": "Mừng năm mới 2025",
+      "description": "Giảm 15% đón chào năm mới 2025",
+      "type": "percentage",
+      "value": "15.00",
+      "min_order_value": "2000000.00",
+      "max_discount": "1000000.00",
+      "usage_limit": 2000,
+      "used_count": 567,
+      "start_date": "2024-12-25T00:00:00.000Z",
+      "end_date": "2025-01-15T00:00:00.000Z",
+      "is_active": true,
+      "created_at": "2025-12-31T16:45:51.253Z",
+      "updated_at": "2025-12-31T16:45:51.253Z"
+    },
+    {
+      "id": "9de9ada5-7f96-4347-b881-a5669a1e6e15",
+      "code": "VIP500K",
+      "name": "Ưu đãi VIP",
+      "description": "Giảm 500.000đ cho khách hàng VIP - Đơn từ 5 triệu",
+      "type": "fixed",
+      "value": "500000.00",
+      "min_order_value": "5000000.00",
+      "max_discount": null,
+      "usage_limit": 100,
+      "used_count": 45,
+      "start_date": "2025-12-31T16:45:51.095Z",
+      "end_date": "2026-01-30T16:45:51.095Z",
+      "is_active": true,
+      "created_at": "2025-12-31T16:45:51.255Z",
+      "updated_at": "2025-12-31T16:45:51.255Z"
+    },
+    {
+      "id": "1dc83cb9-4864-442e-b574-9944c55385f6",
+      "code": "SUMMER30",
+      "name": "Khuyến mãi hè 2024",
+      "description": "Giảm 30% mùa hè - Đã kết thúc",
+      "type": "percentage",
+      "value": "30.00",
+      "min_order_value": "1000000.00",
+      "max_discount": "800000.00",
+      "usage_limit": 1000,
+      "used_count": 1000,
+      "start_date": "2024-06-01T00:00:00.000Z",
+      "end_date": "2024-08-31T00:00:00.000Z",
+      "is_active": false,
+      "created_at": "2025-12-31T16:45:51.256Z",
+      "updated_at": "2025-12-31T16:45:51.256Z"
+    },
+    {
+      "id": "8085df05-a966-445a-baab-179a16fb52ce",
+      "code": "TECH100K",
+      "name": "Giảm 100K đồ công nghệ",
+      "description": "Áp dụng cho điện thoại, laptop, tablet",
+      "type": "fixed",
+      "value": "100000.00",
+      "min_order_value": "1000000.00",
+      "max_discount": null,
+      "usage_limit": 500,
+      "used_count": 89,
+      "start_date": "2025-12-31T16:45:51.095Z",
+      "end_date": "2026-01-30T16:45:51.095Z",
+      "is_active": true,
+      "created_at": "2025-12-31T16:45:51.257Z",
+      "updated_at": "2025-12-31T16:45:51.257Z"
+    },
+    {
+      "id": "62dfb882-9981-4bc5-b1fd-30bb07b6feb8",
+      "code": "MEMBER25",
+      "name": "Ưu đãi thành viên Gold",
+      "description": "Giảm 25% dành riêng cho thành viên Gold trở lên",
+      "type": "percentage",
+      "value": "25.00",
+      "min_order_value": "3000000.00",
+      "max_discount": "1500000.00",
+      "usage_limit": 200,
+      "used_count": 78,
+      "start_date": "2025-12-31T16:45:51.095Z",
+      "end_date": "2026-01-30T16:45:51.095Z",
+      "is_active": true,
+      "created_at": "2025-12-31T16:45:51.258Z",
+      "updated_at": "2025-12-31T16:45:51.258Z"
+    },
+    {
+      "id": "8b4e4488-ca32-4528-a42d-20f18a3fc677",
+      "code": "WELCOME10",
+      "name": "Chào mừng khách hàng mới",
+      "description": "Giảm 10% cho đơn hàng đầu tiên của khách hàng mới",
+      "type": "percentage",
+      "value": "10.00",
+      "min_order_value": "500000.00",
+      "max_discount": "200000.00",
+      "usage_limit": 1000,
+      "used_count": 157,
+      "start_date": "2024-01-01T00:00:00.000Z",
+      "end_date": "2026-01-30T16:45:51.095Z",
+      "is_active": true,
+      "created_at": "2025-12-31T16:45:51.240Z",
+      "updated_at": "2025-12-31T16:45:51.240Z"
+    }
+  ]
+}

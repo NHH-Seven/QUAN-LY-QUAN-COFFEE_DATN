@@ -1,0 +1,99 @@
+@startuml BCE_SAN_PHAM
+
+left to right direction
+
+skinparam backgroundColor white
+skinparam shadowing false
+
+skinparam boundary {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam control {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam entity {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+
+title BIỂU ĐỒ LỚP BCE - MODULE QUẢN LÝ SẢN PHẨM
+
+' ========== ACTOR ==========
+actor "Khách Hàng\n(from Actor)" as Customer
+actor "Nhân Viên\n(from Actor)" as Staff
+
+' ========== BOUNDARY ==========
+boundary "W_ProductPage\n(from Lớp Biên)" as B_ProductPage
+note bottom of B_ProductPage
+  <color:blue>◉</color>displayProducts
+  <color:blue>◉</color>displayProductDetail
+  <color:purple>◆</color>handleAddToCart()
+  <color:purple>◆</color>handleSearch()
+end note
+
+boundary "W_ProductAPI\n(from Lớp Biên)" as B_ProductAPI
+note bottom of B_ProductAPI
+  <color:blue>◉</color>GET /products
+  <color:blue>◉</color>POST /products
+  <color:purple>◆</color>getProducts()
+  <color:purple>◆</color>createProduct()
+end note
+
+' ========== CONTROL ==========
+control "C_ProductController\n(from Lớp Điều Khiển)" as C_ProductCtrl
+note bottom of C_ProductCtrl
+  <color:purple>◆</color>getProducts()
+  <color:purple>◆</color>getProductById()
+  <color:purple>◆</color>createProduct()
+  <color:purple>◆</color>updateProduct()
+  <color:purple>◆</color>deleteProduct()
+  <color:purple>◆</color>searchProducts()
+end note
+
+control "C_ProductService\n(from Lớp Điều Khiển)" as C_ProductSvc
+note bottom of C_ProductSvc
+  <color:purple>◆</color>validateProductData()
+  <color:purple>◆</color>calculateDiscount()
+  <color:purple>◆</color>checkStock()
+  <color:purple>◆</color>updateStock()
+end note
+
+' ========== ENTITY ==========
+entity "Product\n(from Lớp Thực Thể)" as E_Product
+note bottom of E_Product
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>name: String
+  <color:blue>◉</color>price: Decimal
+  <color:blue>◉</color>stock: Integer
+  <color:blue>◉</color>categoryId: UUID
+  <color:blue>◉</color>rating: Decimal
+  <color:blue>◉</color>images: String[]
+  ────────────
+  <color:purple>◆</color>getProducts()
+  <color:purple>◆</color>updateStock()
+end note
+
+entity "Category\n(from Lớp Thực Thể)" as E_Category
+note bottom of E_Category
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>name: String
+  <color:blue>◉</color>slug: String
+  <color:blue>◉</color>icon: String
+  <color:blue>◉</color>productCount: Integer
+  ────────────
+  <color:purple>◆</color>getCategories()
+  <color:purple>◆</color>updateCount()
+end note
+
+' ========== RELATIONSHIPS ==========
+Customer --> B_ProductPage
+Staff --> B_ProductAPI
+B_ProductPage --> C_ProductCtrl
+B_ProductAPI --> C_ProductCtrl
+C_ProductCtrl --> C_ProductSvc
+C_ProductSvc --> E_Product
+E_Product --> E_Category
+
+@enduml

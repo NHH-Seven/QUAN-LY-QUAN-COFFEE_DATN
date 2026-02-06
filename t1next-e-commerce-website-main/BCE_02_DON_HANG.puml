@@ -1,0 +1,108 @@
+@startuml BCE_DON_HANG
+
+left to right direction
+
+skinparam backgroundColor white
+skinparam shadowing false
+
+skinparam boundary {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam control {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam entity {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+
+title BIỂU ĐỒ LỚP BCE - MODULE QUẢN LÝ ĐỚN HÀNG
+
+' ========== ACTOR ==========
+actor "Khách Hàng\n(from Actor)" as Customer
+actor "Nhân Viên\n(from Actor)" as Staff
+
+' ========== BOUNDARY ==========
+boundary "W_CheckoutPage\n(from Lớp Biên)" as B_CheckoutPage
+note bottom of B_CheckoutPage
+  <color:blue>◉</color>displayCart
+  <color:blue>◉</color>displayCheckoutForm
+  <color:purple>◆</color>handlePayment()
+  <color:purple>◆</color>showOrderConfirmation()
+end note
+
+boundary "W_OrderAPI\n(from Lớp Biên)" as B_OrderAPI
+note bottom of B_OrderAPI
+  <color:blue>◉</color>POST /orders
+  <color:blue>◉</color>GET /orders/:id
+  <color:purple>◆</color>createOrder()
+  <color:purple>◆</color>getOrderById()
+end note
+
+' ========== CONTROL ==========
+control "C_OrderController\n(from Lớp Điều Khiển)" as C_OrderCtrl
+note bottom of C_OrderCtrl
+  <color:purple>◆</color>createOrder()
+  <color:purple>◆</color>getOrderById()
+  <color:purple>◆</color>getUserOrders()
+  <color:purple>◆</color>updateOrderStatus()
+  <color:purple>◆</color>cancelOrder()
+end note
+
+control "C_OrderService\n(from Lớp Điều Khiển)" as C_OrderSvc
+note bottom of C_OrderSvc
+  <color:purple>◆</color>validateOrderData()
+  <color:purple>◆</color>calculateTotal()
+  <color:purple>◆</color>applyPromotion()
+  <color:purple>◆</color>processPayment()
+  <color:purple>◆</color>sendOrderEmail()
+  <color:purple>◆</color>updateInventory()
+end note
+
+control "C_PaymentService\n(from Lớp Điều Khiển)" as C_PaymentSvc
+note bottom of C_PaymentSvc
+  <color:purple>◆</color>generateQRCode()
+  <color:purple>◆</color>verifyPayment()
+  <color:purple>◆</color>processRefund()
+end note
+
+' ========== ENTITY ==========
+entity "Order\n(from Lớp Thực Thể)" as E_Order
+note bottom of E_Order
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>userId: UUID
+  <color:blue>◉</color>orderNumber: String
+  <color:blue>◉</color>status: OrderStatus
+  <color:blue>◉</color>total: Decimal
+  <color:blue>◉</color>paymentMethod: String
+  <color:blue>◉</color>shippingAddress: String
+  ────────────
+  <color:purple>◆</color>createOrder()
+  <color:purple>◆</color>updateStatus()
+end note
+
+entity "OrderItem\n(from Lớp Thực Thể)" as E_OrderItem
+note bottom of E_OrderItem
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>orderId: UUID
+  <color:blue>◉</color>productId: UUID
+  <color:blue>◉</color>quantity: Integer
+  <color:blue>◉</color>subtotal: Decimal
+  ────────────
+  <color:purple>◆</color>calculateSubtotal()
+end note
+
+' ========== RELATIONSHIPS ==========
+Customer --> B_CheckoutPage
+Staff --> B_OrderAPI
+B_CheckoutPage --> C_OrderCtrl
+B_OrderAPI --> C_OrderCtrl
+C_OrderCtrl --> C_OrderSvc
+C_OrderCtrl --> C_PaymentSvc
+C_OrderSvc --> E_Order
+C_OrderSvc --> E_OrderItem
+E_Order --> E_OrderItem
+
+@enduml

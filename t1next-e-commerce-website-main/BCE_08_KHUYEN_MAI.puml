@@ -1,0 +1,98 @@
+@startuml BCE_KHUYEN_MAI
+
+left to right direction
+
+skinparam backgroundColor white
+skinparam shadowing false
+
+skinparam boundary {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam control {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+skinparam entity {
+    BackgroundColor #FFFFCC
+    BorderColor #000000
+}
+
+title BIỂU ĐỒ LỚP BCE - MODULE KHUYẾN MÃI
+
+' ========== ACTOR ==========
+actor "Nhân Viên\n(from Actor)" as Staff
+
+' ========== BOUNDARY ==========
+boundary "W_PromotionPage\n(from Lớp Biên)" as B_PromotionPage
+note bottom of B_PromotionPage
+  <color:blue>◉</color>displayPromotions
+  <color:blue>◉</color>displayPromotionForm
+  <color:purple>◆</color>handleCreatePromotion()
+  <color:purple>◆</color>handleApplyPromotion()
+end note
+
+boundary "W_PromotionAPI\n(from Lớp Biên)" as B_PromotionAPI
+note bottom of B_PromotionAPI
+  <color:blue>◉</color>POST /promotions
+  <color:blue>◉</color>GET /promotions
+  <color:purple>◆</color>createPromotion()
+  <color:purple>◆</color>getPromotions()
+end note
+
+' ========== CONTROL ==========
+control "C_PromotionController\n(from Lớp Điều Khiển)" as C_PromotionCtrl
+note bottom of C_PromotionCtrl
+  <color:purple>◆</color>createPromotion()
+  <color:purple>◆</color>getPromotions()
+  <color:purple>◆</color>applyPromotion()
+  <color:purple>◆</color>validateCode()
+end note
+
+control "C_PromotionService\n(from Lớp Điều Khiển)" as C_PromotionSvc
+note bottom of C_PromotionSvc
+  <color:purple>◆</color>checkEligibility()
+  <color:purple>◆</color>calculateDiscount()
+  <color:purple>◆</color>trackUsage()
+  <color:purple>◆</color>sendNotification()
+end note
+
+' ========== ENTITY ==========
+entity "Promotion\n(from Lớp Thực Thể)" as E_Promotion
+note bottom of E_Promotion
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>code: String
+  <color:blue>◉</color>type: PromotionType
+  <color:blue>◉</color>discountValue: Decimal
+  <color:blue>◉</color>minOrderValue: Decimal
+  <color:blue>◉</color>maxUsage: Integer
+  <color:blue>◉</color>startDate: DateTime
+  <color:blue>◉</color>endDate: DateTime
+  <color:blue>◉</color>isActive: Boolean
+  ────────────
+  <color:purple>◆</color>createPromotion()
+  <color:purple>◆</color>validatePromotion()
+end note
+
+entity "PromotionUsage\n(from Lớp Thực Thể)" as E_PromotionUsage
+note bottom of E_PromotionUsage
+  <color:blue>◉</color>id: UUID
+  <color:blue>◉</color>promotionId: UUID
+  <color:blue>◉</color>userId: UUID
+  <color:blue>◉</color>orderId: UUID
+  <color:blue>◉</color>discountAmount: Decimal
+  <color:blue>◉</color>usedAt: DateTime
+  ────────────
+  <color:purple>◆</color>trackUsage()
+end note
+
+' ========== RELATIONSHIPS ==========
+Staff --> B_PromotionPage
+B_PromotionPage --> C_PromotionCtrl
+B_PromotionAPI --> C_PromotionCtrl
+C_PromotionCtrl --> C_PromotionSvc
+C_PromotionSvc --> E_Promotion
+C_PromotionSvc --> E_PromotionUsage
+E_PromotionUsage --> E_Promotion
+
+@enduml
